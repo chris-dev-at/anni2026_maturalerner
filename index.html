@@ -8,6 +8,17 @@
 <title>Anni 2026 · Maturalerner</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<script>
+  // Thema vor dem ersten Rendern setzen, damit nichts aufblitzt.
+  (function () {
+    var pref = null;
+    try { pref = localStorage.getItem("aml:theme"); } catch (e) {}
+    var dark = pref === "dark" ||
+      (pref !== "light" && window.matchMedia &&
+       window.matchMedia("(prefers-color-scheme: dark)").matches);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  })();
+</script>
 </head>
 <body>
 
@@ -25,6 +36,7 @@
       <button class="navbtn" data-nav="archiv" type="button">Archiv</button>
       <button class="navbtn" data-nav="stats" type="button">Statistik</button>
       <button class="navbtn" data-nav="daten" type="button">Daten</button>
+      <button class="theme-btn" id="theme-btn" type="button" title="Helles oder dunkles Thema" aria-label="Thema wechseln">🌙</button>
     </nav>
   </div>
 </header>
@@ -292,6 +304,14 @@
 
     <div class="panel">
       <h3>Einstellungen</h3>
+      <label class="field" style="max-width:320px;margin-bottom:12px">
+        <span class="field-label">Erscheinungsbild</span>
+        <select id="set-theme">
+          <option value="system">Wie am Gerät eingestellt</option>
+          <option value="light">Immer hell</option>
+          <option value="dark">Immer dunkel</option>
+        </select>
+      </label>
       <label class="switch">
         <input type="checkbox" id="set-firsttry">
         <span>„Einmal alles durch“: beim ersten Versuch richtig → sofort abgehakt</span>

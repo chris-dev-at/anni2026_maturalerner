@@ -30,28 +30,37 @@
   --radius:    16px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:       #121714;
-    --panel:    #1a221e;
-    --ink:      #e7efea;
-    --muted:    #97a9a1;
-    --line:     #2b352f;
+/* Dunkles Thema. Gesetzt wird data-theme früh im <head>, damit beim Laden
+   nichts aufblitzt – entweder aus der gespeicherten Wahl oder aus der
+   Systemeinstellung. */
+:root[data-theme="dark"] {
+  --bg:       #121714;
+  --panel:    #1a221e;
+  --ink:      #e7efea;
+  --muted:    #97a9a1;
+  --line:     #2b352f;
 
-    --accent:   #3fa583;
-    --accent-d: #58bd9a;
-    --accent-l: #1c332a;
+  --accent:   #3fa583;
+  --accent-d: #58bd9a;
+  --accent-l: #1c332a;
 
-    --blue-l:   #1c2740;
-    --red-l:    #35201f;
-    --green-l:  #17301f;
-    --amber-l:  #322715;
-    --violet-l: #262040;
+  --blue:     #7ba4f5;
+  --blue-l:   #1c2740;
+  --red:      #f0736b;
+  --red-l:    #35201f;
+  --green:    #45c48d;
+  --green-l:  #17301f;
+  --amber:    #ddab3f;
+  --amber-l:  #322715;
+  --violet:   #a08ce8;
+  --violet-l: #262040;
 
-    --shadow:    0 6px 22px rgba(0, 0, 0, .35);
-    --shadow-up: 0 -6px 16px rgba(0, 0, 0, .4);
-  }
+  --shadow:    0 6px 22px rgba(0, 0, 0, .35);
+  --shadow-up: 0 -6px 16px rgba(0, 0, 0, .4);
 }
+
+/* Notizzettel behält im dunklen Thema den Papierlook, aber gedämpft */
+:root[data-theme="dark"] .scratch textarea { background: #26241c; color: var(--ink); }
 
 * { box-sizing: border-box; }
 
@@ -111,6 +120,14 @@ a:hover { text-decoration: underline; }
 }
 .navbtn:hover { background: var(--bg); }
 .navbtn.active { background: var(--accent-l); color: var(--accent-d); }
+
+.theme-btn {
+  background: none; border: 1px solid var(--line); cursor: pointer;
+  width: 36px; height: 36px; border-radius: 10px;
+  display: grid; place-items: center; font-size: 15px; line-height: 1;
+  margin-left: 4px; flex-shrink: 0;
+}
+.theme-btn:hover { background: var(--bg); border-color: var(--accent); }
 
 /* ------------------------------------------------------------- Container */
 #app {

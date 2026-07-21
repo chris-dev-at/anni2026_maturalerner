@@ -15,6 +15,7 @@ const KEYS = {
   groups:   NS + "groups",
   attempts: NS + "attempts",
   settings: NS + "settings",
+  theme:    NS + "theme",
 };
 const ATTEMPT_CAP = 20000;
 
@@ -87,6 +88,47 @@ function toast(msg) {
 
 function nowIso() { return new Date().toISOString(); }
 
+/* ---------------------------------------------------------------- Thema */
+
+// Gespeichert wird "light", "dark" oder nichts (= wie am Gerät eingestellt).
+// Das <head>-Skript setzt data-theme bereits vor dem ersten Rendern.
+
+function themePref() {
+  try { return localStorage.getItem(KEYS.theme) || "system"; } catch (e) { return "system"; }
+}
+
+function systemPrefersDark() {
+  return !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+}
+
+function applyTheme() {
+  const pref = themePref();
+  const dark = pref === "dark" || (pref === "system" && systemPrefersDark());
+  document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  const btn = $("#theme-btn");
+  if (btn) {
+    btn.textContent = dark ? "☀️" : "🌙";
+    btn.title = dark ? "Auf helles Thema wechseln" : "Auf dunkles Thema wechseln";
+  }
+  const sel = $("#set-theme");
+  if (sel) sel.value = pref;
+}
+
+function setTheme(pref) {
+  try {
+    if (pref === "system") localStorage.removeItem(KEYS.theme);
+    else localStorage.setItem(KEYS.theme, pref);
+  } catch (e) { /* privates Fenster – Thema gilt dann nur für diese Sitzung */ }
+  applyTheme();
+}
+
+// Der Knopf schaltet direkt zwischen hell und dunkel um,
+// das Auswahlfeld unter „Daten" bietet zusätzlich „wie am Gerät".
+function toggleTheme() {
+  const darkNow = document.documentElement.getAttribute("data-theme") === "dark";
+  setTheme(darkNow ? "light" : "dark");
+}
+
 function uid() {
   if (window.crypto && crypto.randomUUID) return crypto.randomUUID().replace(/-/g, "").slice(0, 12);
   return Math.random().toString(36).slice(2, 14);
@@ -123,6 +165,7 @@ async function init() {
   recomputeProFrage();
 
   bindGlobal();
+  applyTheme();
   renderHome();
   renderArchivFilters();
   syncSettingsUi();
@@ -197,6 +240,15 @@ function bindGlobal() {
   $("#import-file").addEventListener("change", importData);
   $("#btn-wipe").addEventListener("click", wipeAll);
 
+  $("#theme-btn").addEventListener("click", toggleTheme);
+  $("#set-theme").addEventListener("change", (e) => setTheme(e.target.value));
+  if (window.matchMedia) {
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const onSystemChange = () => { if (themePref() === "system") applyTheme(); };
+    if (mq.addEventListener) mq.addEventListener("change", onSystemChange);
+    else if (mq.addListener) mq.addListener(onSystemChange);
+  }
+
   $("#set-firsttry").addEventListener("change", (e) => setSetting("first_try_abhaken", e.target.checked));
   $("#set-shuffle").addEventListener("change", (e) => setSetting("shuffle", e.target.checked));
   $("#set-hilfen").addEventListener("change", (e) => setSetting("hilfen", e.target.checked));
@@ -210,6 +262,7 @@ function setSetting(key, val) {
 }
 
 function syncSettingsUi() {
+  $("#set-theme").value = themePref();
   $("#set-firsttry").checked = !!state.settings.first_try_abhaken;
   $("#set-shuffle").checked  = state.settings.shuffle !== false;
   $("#set-hilfen").checked   = state.settings.hilfen !== false;
@@ -1545,7 +1598,10 @@ function importData(e) {
 function wipeAll() {
   if (!confirm("Wirklich ALLE Daten dieser App auf diesem Gerät löschen? Das kann nicht rückgängig gemacht werden.")) return;
   if (!confirm("Sicher? Exportiere vorher, falls du den Fortschritt behalten willst.")) return;
-  Object.values(KEYS).forEach((k) => localStorage.removeItem(k));
+  // Das Thema ist eine reine Anzeigeeinstellung und bleibt erhalten.
+  Object.entries(KEYS).forEach(([name, k]) => {
+    if (name !== "theme") localStorage.removeItem(k);
+  });
   state.marks = {}; state.excluded = {}; state.progress = {};
   state.groups = []; state.attempts = [];
   state.settings = { first_try_abhaken: false, shuffle: true, hilfen: true };
