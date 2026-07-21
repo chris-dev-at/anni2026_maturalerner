@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Maturalerner">
+  <rect width="64" height="64" rx="14" fill="#14634a"/>
+  <path d="M32 14c-9 0-16 6.5-16 15.5 0 8.5 6 15 14 20.2v3.3a2 2 0 0 0 4 0v-3.3c8-5.2 14-11.7 14-20.2C48 20.5 41 14 32 14z"
+        fill="none" stroke="#dcefe7" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M32 47V27" stroke="#dcefe7" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M32 33c-4 0-7-2.5-7-6.5 3.8 0 7 2.5 7 6.5zM32 39c4 0 7-2.5 7-6.5-3.8 0-7 2.5-7 6.5z"
+        fill="#7fd6b6"/>
+</svg>

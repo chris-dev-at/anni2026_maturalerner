@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14634a">
+<meta name="description" content="Lernplattform für die mündliche Matura in Ernährung und Lebensmitteltechnologie">
+<title>Anni 2026 · Maturalerner</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="brand" data-nav="home" type="button">
+      <span class="brand-logo" aria-hidden="true">🥗</span>
+      <span class="brand-text">
+        <span class="brand-title">Maturalerner</span>
+        <span class="brand-sub">Ernährung &amp; Lebensmitteltechnologie</span>
+      </span>
+    </button>
+    <nav class="topnav">
+      <button class="navbtn active" data-nav="home" type="button">Start</button>
+      <button class="navbtn" data-nav="archiv" type="button">Archiv</button>
+      <button class="navbtn" data-nav="stats" type="button">Statistik</button>
+      <button class="navbtn" data-nav="daten" type="button">Daten</button>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ============================ START ============================ -->
+  <section class="view active" id="view-home">
+    <div class="hero">
+      <h1>Womit möchtest du lernen?</h1>
+      <p id="home-summary" class="muted">Fragen werden geladen …</p>
+    </div>
+
+    <div class="mode-grid">
+      <button class="mode-card" data-mode="quiz" type="button">
+        <span class="mc-icon" aria-hidden="true">✅</span>
+        <span class="mc-title">Quiz</span>
+        <span class="mc-desc">Frage mit Antwortmöglichkeiten. Sofortiges Feedback, Erklärung, Buchkapitel und Video-Links.</span>
+      </button>
+      <button class="mode-card" data-mode="karteikarte" type="button">
+        <span class="mc-icon" aria-hidden="true">🗂️</span>
+        <span class="mc-title">Karteikarte</span>
+        <span class="mc-desc">Frei antworten, umdrehen, selbst einschätzen. Ideal zum lauten Üben für die mündliche Prüfung.</span>
+      </button>
+      <button class="mode-card" data-mode="durchgang" type="button">
+        <span class="mc-icon" aria-hidden="true">📋</span>
+        <span class="mc-title">Einmal alles durch</span>
+        <span class="mc-desc">Jede Frage so oft, bis du sie mehrmals hintereinander kannst. Mit Gruppen und dauerhaftem Fortschritt.</span>
+      </button>
+      <button class="mode-card accent" data-mode="schwach" type="button">
+        <span class="mc-icon" aria-hidden="true">🎯</span>
+        <span class="mc-title">Schwere Fragen</span>
+        <span class="mc-desc">Trainiert gezielt, was du markiert hast oder oft falsch beantwortest.</span>
+      </button>
+      <button class="mode-card" data-mode="pruefung" type="button">
+        <span class="mc-icon" aria-hidden="true">🎓</span>
+        <span class="mc-title">Prüfungsmodus</span>
+        <span class="mc-desc">Ein zufälliger Themenbereich wie bei der Matura – ohne Hilfen, Auswertung am Ende.</span>
+      </button>
+      <button class="mode-card" data-nav="pdf" type="button">
+        <span class="mc-icon" aria-hidden="true">📕</span>
+        <span class="mc-title">Lernunterlage</span>
+        <span class="mc-desc">Die vollständige PDF zum gesamten Maturastoff – zum Lesen und Ausdrucken.</span>
+      </button>
+    </div>
+
+    <div class="panel tb-overview">
+      <h3>Die zehn Themenbereiche</h3>
+      <p class="muted small">Tippe einen Bereich an, um sofort gezielt damit zu lernen.</p>
+      <div id="tb-grid" class="tb-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============================ SETUP ============================ -->
+  <section class="view" id="view-setup">
+    <button class="link-back" data-nav="home" type="button">← zurück</button>
+    <h1 id="setup-title">Konfigurieren</h1>
+
+    <div class="panel">
+      <h3>Umfang</h3>
+      <label class="radio"><input type="radio" name="scope" value="alles" checked> <span>Alle Themenbereiche</span></label>
+      <label class="radio"><input type="radio" name="scope" value="tb"> <span>Ein Themenbereich</span></label>
+      <label class="radio"><input type="radio" name="scope" value="themen"> <span>Einzelne Themen auswählen</span></label>
+
+      <div id="scope-tb" class="scope-box hidden">
+        <div id="tb-chips" class="chips"></div>
+      </div>
+
+      <div id="scope-themen" class="scope-box hidden">
+        <div id="themen-groups"></div>
+      </div>
+    </div>
+
+    <div class="panel" id="tags-panel">
+      <h3>Merkmale <span class="muted small" id="tags-count"></span></h3>
+      <p class="muted small">Zusätzlich einschränken – mehrere Merkmale wirken zusammen.</p>
+      <div id="tag-chips" class="chips"></div>
+    </div>
+
+    <div class="panel row-panel" id="anzahl-row">
+      <label class="field">
+        <span class="field-label">Anzahl Fragen</span>
+        <select id="anzahl">
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="0">Alle</option>
+        </select>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="weight-weak">
+        <span>Schwere Fragen bevorzugen</span>
+      </label>
+    </div>
+
+    <div class="panel hidden" id="durchgang-panel">
+      <h3>Einmal alles durch</h3>
+      <p class="muted small">
+        Jede Frage bleibt in der Runde, bis du sie mehrmals hintereinander richtig hast.
+        Der Fortschritt wird dauerhaft auf diesem Gerät gespeichert.
+      </p>
+      <div class="row-panel">
+        <label class="field">
+          <span class="field-label">Abhaken nach</span>
+          <select id="dg-ziel">
+            <option value="1">1× richtig hintereinander</option>
+            <option value="2" selected>2× richtig hintereinander</option>
+            <option value="3">3× richtig hintereinander</option>
+            <option value="4">4× richtig hintereinander</option>
+            <option value="5">5× richtig hintereinander</option>
+          </select>
+        </label>
+        <label class="field">
+          <span class="field-label">Runden</span>
+          <select id="dg-batch">
+            <option value="10">Pause nach 10 richtigen</option>
+            <option value="20" selected>Pause nach 20 richtigen</option>
+            <option value="30">Pause nach 30 richtigen</option>
+            <option value="50">Pause nach 50 richtigen</option>
+            <option value="0">Ohne Pause durchziehen</option>
+          </select>
+        </label>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="dg-firsttry">
+        <span>Beim ersten Versuch richtig → sofort abgehakt</span>
+      </label>
+
+      <div class="group-create">
+        <input type="text" id="group-name" placeholder="Name, z. B. „Alle Themen bis August“" maxlength="60">
+        <button class="btn" id="btn-group-create" type="button">＋ Gruppe erstellen</button>
+      </div>
+      <p class="muted small" id="group-preview"></p>
+
+      <h3 style="margin-top:18px">Deine Gruppen</h3>
+      <div id="group-list"></div>
+      <button class="btn-ghost danger" id="btn-reset-quick" type="button">Schnellstart-Fortschritt zurücksetzen</button>
+    </div>
+
+    <div class="setup-actions">
+      <span class="muted" id="setup-count"></span>
+      <button class="btn btn-primary" id="btn-start" type="button">Los geht's →</button>
+    </div>
+  </section>
+
+  <!-- ============================ SESSION ============================ -->
+  <section class="view" id="view-session">
+    <div class="session-top">
+      <button class="link-back" id="btn-end" type="button">← beenden</button>
+      <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+      <span id="session-count"></span>
+    </div>
+
+    <article class="card" id="qcard">
+      <div class="card-tools">
+        <button class="icon-btn" id="mark-btn" type="button" title="Als schwere Frage markieren" aria-label="Als schwere Frage markieren">☆</button>
+        <button class="icon-btn" id="skip-btn" type="button" title="Diese Frage dauerhaft ausblenden" aria-label="Frage ausblenden">🚫</button>
+      </div>
+      <div class="badges" id="q-badges"></div>
+      <h2 class="q-text" id="q-text"></h2>
+      <ol class="q-aussagen hidden" id="q-aussagen"></ol>
+      <div class="opts" id="q-options"></div>
+      <div class="explain hidden" id="q-explain"></div>
+      <div class="hilfen hidden" id="q-hilfen"></div>
+      <div class="card-actions" id="card-actions"></div>
+    </article>
+
+    <div class="scratch">
+      <button class="btn-ghost" id="scratch-toggle" type="button">📝 Notizzettel öffnen</button>
+      <textarea id="scratch-area" class="hidden" rows="4" placeholder="Platz für deine Stichworte – wird nicht gespeichert."></textarea>
+    </div>
+
+    <p class="kbd-hint muted small">⌨️ Tastatur: 1–5 Antwort wählen · Enter weiter</p>
+  </section>
+
+  <!-- ============================ ARCHIV ============================ -->
+  <section class="view" id="view-archiv">
+    <h1>📚 Archiv</h1>
+    <p class="muted">Alle Fragen durchsuchen, nachlesen und einzelne Fragen ausblenden.</p>
+
+    <div class="panel">
+      <input type="search" id="archiv-search" placeholder="Suche: Nummer (#) oder Text …">
+      <div class="row-panel" style="margin-top:12px">
+        <label class="field">
+          <span class="field-label">Themenbereich</span>
+          <select id="archiv-tb"><option value="">Alle</option></select>
+        </label>
+        <label class="field">
+          <span class="field-label">Merkmal</span>
+          <select id="archiv-tag">
+            <option value="">Alle</option>
+            <option value="mark">⭐ Markiert</option>
+            <option value="weak">Oft falsch</option>
+            <option value="excluded">🚫 Ausgeblendet</option>
+            <option value="unseen">Noch nie beantwortet</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <p class="muted" id="archiv-count"></p>
+    <div id="archiv-list"></div>
+  </section>
+
+  <!-- ============================ STATISTIK ============================ -->
+  <section class="view" id="view-stats">
+    <div class="stats-head">
+      <h1>Statistik</h1>
+      <button class="btn-ghost danger" id="btn-reset-stats" type="button">Zurücksetzen</button>
+    </div>
+
+    <div class="kpi-row" id="kpi-row"></div>
+
+    <div class="panel">
+      <h3>Trefferquote nach Themenbereich</h3>
+      <div id="tb-bars"></div>
+    </div>
+
+    <div class="stats-cols">
+      <div class="panel">
+        <h3>🎯 Deine Schwachstellen</h3>
+        <div id="weak-themen"></div>
+      </div>
+      <div class="panel">
+        <h3>Verlauf</h3>
+        <div id="verlauf-chart"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Häufig falsch beantwortet</h3>
+      <button class="btn" id="btn-train-weak" type="button">Diese Fragen trainieren →</button>
+      <div id="weak-list"></div>
+    </div>
+  </section>
+
+  <!-- ============================ DATEN ============================ -->
+  <section class="view" id="view-daten">
+    <h1>Daten &amp; Geräte</h1>
+    <p class="muted">
+      Dein Fortschritt liegt ausschließlich auf diesem Gerät – es gibt keinen Server und kein Konto.
+      Um am Tablet weiterzulernen, exportierst du hier eine Datei und importierst sie dort.
+    </p>
+
+    <div class="panel">
+      <h3>Fortschritt sichern</h3>
+      <p class="muted small">
+        Enthält: markierte schwere Fragen, ausgeblendete Fragen, den Fortschritt aus
+        „Einmal alles durch“, alle Gruppen, deine Statistik und die Einstellungen.
+      </p>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="btn-export" type="button">⬇ Exportieren</button>
+        <button class="btn" id="btn-import" type="button">⬆ Importieren</button>
+        <input type="file" id="import-file" accept="application/json,.json" hidden>
+      </div>
+      <p class="muted small" id="export-info"></p>
+    </div>
+
+    <div class="panel">
+      <h3>Ausgeblendete Fragen</h3>
+      <p class="muted small">Diese Fragen kommen in keinem Lernmodus mehr vor. Du kannst sie jederzeit zurückholen.</p>
+      <div id="excluded-list"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Einstellungen</h3>
+      <label class="switch">
+        <input type="checkbox" id="set-firsttry">
+        <span>„Einmal alles durch“: beim ersten Versuch richtig → sofort abgehakt</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="set-shuffle" checked>
+        <span>Antwortmöglichkeiten mischen</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="set-hilfen" checked>
+        <span>Buchkapitel und Video-Links nach dem Antworten anzeigen</span>
+      </label>
+    </div>
+
+    <div class="panel danger-zone">
+      <h3>Alles zurücksetzen</h3>
+      <p class="muted small">Löscht sämtliche gespeicherten Daten dieser App auf diesem Gerät.</p>
+      <button class="btn-ghost danger" id="btn-wipe" type="button">Alle Daten löschen</button>
+    </div>
+  </section>
+
+  <!-- ============================ PDF ============================ -->
+  <section class="view" id="view-pdf">
+    <button class="link-back" data-nav="home" type="button">← zurück</button>
+    <h1>📕 Lernunterlage</h1>
+    <p class="muted">
+      Die vollständige Ausarbeitung des gesamten Maturastoffs – jeder Punkt des Stoffzettels
+      ausformuliert, mit Merksätzen, Prüfungstipps, Tabellen und Tagesspeiseplänen.
+    </p>
+    <div class="panel pdf-panel">
+      <div class="pdf-icon" aria-hidden="true">📕</div>
+      <div class="pdf-meta">
+        <strong>Maturastoff Ernährung und Lebensmitteltechnologie</strong>
+        <span class="muted small">PDF · 10 Kapitel · alle Themenbereiche</span>
+      </div>
+      <a class="btn btn-primary" href="Maturastoff_Ernaehrung.pdf" target="_blank" rel="noopener">Öffnen</a>
+    </div>
+  </section>
+
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
