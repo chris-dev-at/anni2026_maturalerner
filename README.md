@@ -12,11 +12,19 @@ und damit auch nichts, was jemand missbrauchen könnte.
 
 ## Was drin ist
 
-- **Fragen zum gesamten Maturastoff**, aufgeteilt auf die zehn Themenbereiche des Stoffzettels.
-- **Die Lern-PDF** mit der vollständigen Ausarbeitung des Stoffs (240 Seiten) – direkt in der
-  App unter „Lernunterlage“ erreichbar.
+- **Über 600 Fragen zum gesamten Maturastoff**, aufgeteilt auf die zehn Themenbereiche
+  des Stoffzettels.
 - Zu jeder Frage eine **Erklärung**, die passenden **Buchkapitel** zum Nachlesen und
   **YouTube-Suchlinks** für Erklärvideos zum Thema.
+- **Zwei Lernunterlagen als PDF**, in der App unter „Lernunterlagen“ direkt zu öffnen:
+
+| Unterlage | Umfang | Wofür |
+|---|---|---|
+| **Maturastoff kompakt** | ~55 Seiten | Stichworte und Tabellen statt Fließtext. Gewichtet nach dem, was die Lehrerin in der Stoffbesprechung betont hat – Wichtiges ausführlich, Randthemen auf eine Zeile. Zum Auswendiglernen und schnellen Wiederholen. |
+| **Maturastoff ausführlich** | 240 Seiten | Jeder Punkt des Stoffzettels ausformuliert, mit Merksätzen, Prüfungstipps, Rechenbeispielen und Tagesspeiseplänen. Zum Nachschlagen und Verstehen. |
+
+Beide decken denselben Stoff ab und folgen derselben Kapitelgliederung – du kannst also
+zwischen ihnen hin- und herspringen.
 
 ## Die Lernmodi
 
@@ -70,8 +78,9 @@ index.html      Alle Screens als einzelne Views
 style.css       Design-System, Light und Dark Mode, responsiv ab 320 px
 app.js          Lernlogik, Statistik, Speicherung, Export/Import
 data/
-  questions.json  Die Fragen mit Erklärung, Buchkapitel und YouTube-Suchbegriffen
-Maturastoff_Ernaehrung.pdf   Die Lernunterlage
+  questions.json             Fragen mit Erklärung, Buchkapitel und YouTube-Suchbegriffen
+Maturastoff_kompakt.pdf      Kurzfassung zum Auswendiglernen
+Maturastoff_Ernaehrung.pdf   Ausführliche Ausarbeitung zum Nachschlagen
 ```
 
 Lokal ausprobieren:

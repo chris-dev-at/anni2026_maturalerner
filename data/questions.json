@@ -38,6 +38,11 @@
    "anzahl": 50
   },
   {
+   "nr": 8,
+   "titel": "Lebensmittelkennzeichnung",
+   "anzahl": 50
+  },
+  {
    "nr": 9,
    "titel": "Ernährung verschiedener Personengruppen",
    "anzahl": 70
@@ -10217,6 +10222,1232 @@
    "nr": 412
   },
   {
+   "id": "tb08-001",
+   "tb": 8,
+   "thema": "LMIV: Aufgaben und Pflichtangaben",
+   "frage": "Wie heißt die Verordnung, die die Kennzeichnung von Lebensmitteln EU-weit einheitlich regelt?",
+   "antworten": [
+    "Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG)",
+    "Lebensmittelinformationsverordnung (LMIV)",
+    "General Food Law (GFL)",
+    "Österreichisches Lebensmittelbuch (Kodex)"
+   ],
+   "richtig": 1,
+   "erklaerung": "Die LMIV regelt die Lebensmittelkennzeichnung auf europäischer Ebene einheitlich. Das LMSVG ist dagegen die österreichische Umsetzung des General Food Law, das GFL ist das EU-weite Sicherheitskonzept für Lebensmittel, und der Kodex ist kein Gesetz, sondern eine Sammlung von Sachbezeichnungen und Rezepturregelungen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Lebensmittelinformationsverordnung LMIV einfach erklärt",
+    "Lebensmittelkennzeichnung Pflichtangaben erklärt"
+   ],
+   "nr": 413
+  },
+  {
+   "id": "tb08-002",
+   "tb": 8,
+   "thema": "LMIV: Aufgaben und Pflichtangaben",
+   "frage": "Welche zwei zentralen Aufgaben erfüllt die Lebensmittelinformationsverordnung (LMIV)?",
+   "antworten": [
+    "Einheitliche, klare Kennzeichnungsvorgaben für Hersteller und umfassende Information der Konsumentinnen und Konsumenten",
+    "Festlegung der Rezepturen und der verbindlichen Sachbezeichnungen aller Lebensmittel",
+    "Organisation der amtlichen Lebensmittelkontrolle und der Probenziehung in den EU-Ländern",
+    "Zulassung von Zusatzstoffen und Festlegung ihrer ADI-Werte"
+   ],
+   "richtig": 0,
+   "erklaerung": "Die LMIV schafft für die Hersteller europaweit einheitliche und klare Vorgaben zur Kennzeichnung und stellt für die Konsumentinnen und Konsumenten sicher, dass sie beim Lebensmittelkauf umfassend informiert werden. Rezepturen und Sachbezeichnungen stehen im Österreichischen Lebensmittelbuch, die Kontrolle organisieren die nationalen Behörden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "LMIV Ziele Verbraucherinformation erklärt"
+   ],
+   "nr": 414
+  },
+  {
+   "id": "tb08-003",
+   "tb": 8,
+   "thema": "LMIV: Aufgaben und Pflichtangaben",
+   "frage": "Welche Mindestschriftgröße ist für die Kennzeichnungselemente auf verpackten Lebensmitteln vorgeschrieben?",
+   "antworten": [
+    "0,9 mm",
+    "1,0 mm",
+    "1,2 mm",
+    "2,0 mm"
+   ],
+   "richtig": 2,
+   "erklaerung": "Die LMIV schreibt eine Mindestschriftgröße von 1,2 mm vor. Außerdem müssen die wichtigsten Kennzeichnungselemente leicht verständlich, an sichtbarer Stelle und unverwischbar angebracht sein.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Lebensmittelkennzeichnung Vorschriften Etikett erklärt"
+   ],
+   "nr": 415
+  },
+  {
+   "id": "tb08-004",
+   "tb": 8,
+   "thema": "LMIV: Aufgaben und Pflichtangaben",
+   "frage": "Welche dieser Angaben ist auf verpackten Lebensmitteln NICHT verpflichtend?",
+   "antworten": [
+    "Loskennzeichnung",
+    "Füllmenge",
+    "Name und Anschrift des Lebensmittelunternehmers",
+    "Gütezeichen und Portionsangaben"
+   ],
+   "richtig": 3,
+   "erklaerung": "Gütezeichen, Portionsangaben und Werbeaussagen sind freiwillige Angaben. Loskennzeichnung, Füllmenge sowie Name und Anschrift des Lebensmittelunternehmers gehören dagegen zur verpflichtenden Grundkennzeichnung nach der LMIV.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Pflichtangaben Lebensmitteletikett Übersicht"
+   ],
+   "nr": 416
+  },
+  {
+   "id": "tb08-005",
+   "tb": 8,
+   "thema": "LMIV: Aufgaben und Pflichtangaben",
+   "frage": "Ein Getränk trägt den Fantasienamen „Hohes C“. Welche zusätzliche Angabe schreibt das Lebensmittelrecht vor?",
+   "antworten": [
+    "Die Angabe des Herkunftslandes der verarbeiteten Orangen",
+    "Die verbindliche Sachbezeichnung, hier „Orangensaft“",
+    "Ein staatlich anerkanntes Gütezeichen",
+    "Keine weitere Angabe, ein eingetragener Markenname ersetzt die Bezeichnung"
+   ],
+   "richtig": 1,
+   "erklaerung": "Fantasie- oder Markennamen müssen durch eine verbindlich vorgeschriebene Sachbezeichnung ergänzt werden, damit klar ist, was tatsächlich in der Packung ist – „Hohes C“ muss durch „Orangensaft“ ergänzt werden. Die Sachbezeichnungen findet man im Österreichischen Lebensmittelbuch. Eine Herkunftsangabe ist innerhalb der EU bis auf Ausnahmen nicht vorgeschrieben.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Sachbezeichnung Lebensmittel Verkehrsbezeichnung erklärt"
+   ],
+   "nr": 417
+  },
+  {
+   "id": "tb08-006",
+   "tb": 8,
+   "thema": "Kontrolle in Österreich",
+   "frage": "Das General Food Law verlangt, dass auf jeder Produktions-, Verarbeitungs- und Vertriebsstufe dokumentiert wird, was wann von wem übernommen und was wann an wen abgegeben wurde. Wie heißt dieses Prinzip?",
+   "antworten": [
+    "Eigenkontrolle",
+    "Rückverfolgbarkeit (Traceability)",
+    "Loskennzeichnung",
+    "Betriebsrevision"
+   ],
+   "richtig": 1,
+   "erklaerung": "Die Rückverfolgbarkeit (Traceability) ist eines der drei Prinzipien des General Food Law: Durch die lückenlose Dokumentation über alle Stufen kann ein nicht sicheres Produkt gezielt und präzise vom Markt genommen werden. Die Eigenkontrolle betrifft die Verantwortung der Unternehmen im eigenen Betrieb, die Loskennzeichnung ist nur ein Werkzeug der Rückverfolgbarkeit auf der Verpackung.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 2 Rechtsgrundlagen"
+    }
+   ],
+   "yt": [
+    "Rückverfolgbarkeit Lebensmittel Traceability erklärt"
+   ],
+   "nr": 418
+  },
+  {
+   "id": "tb08-007",
+   "tb": 8,
+   "thema": "Kontrolle in Österreich",
+   "frage": "Welches Gesetz setzt die Forderungen des General Food Law (GFL) in Österreich um?",
+   "antworten": [
+    "Das Österreichische Lebensmittelbuch (Kodex)",
+    "Die Lebensmittelinformationsverordnung (LMIV)",
+    "Das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG)",
+    "Die Konfitürenverordnung"
+   ],
+   "richtig": 2,
+   "erklaerung": "Das LMSVG setzt die Forderungen des GFL für Österreich um und regelt Anforderungen an Lebensmittel, Wasser für den menschlichen Gebrauch, Gebrauchsgegenstände und kosmetische Artikel. Ziel ist der Schutz der Konsumentinnen und Konsumenten vor Gesundheitsschäden sowie vor Täuschung und Irreführung. Der Kodex ist kein Gesetz, die LMIV regelt die Kennzeichnung auf EU-Ebene.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 2 Rechtsgrundlagen"
+    }
+   ],
+   "yt": [
+    "LMSVG Lebensmittelrecht Österreich erklärt"
+   ],
+   "nr": 419
+  },
+  {
+   "id": "tb08-008",
+   "tb": 8,
+   "thema": "Kontrolle in Österreich",
+   "frage": "Welche Einrichtung ist in Österreich für die Lebensmittelsicherheit zuständig?",
+   "antworten": [
+    "Die AGES – Österreichische Agentur für Gesundheit und Ernährungssicherung",
+    "Die EFSA – Europäische Behörde für Lebensmittelsicherheit",
+    "Die AMA – Agrarmarkt Austria Marketing GmbH",
+    "Das EU-Lebensmittel- und Veterinäramt (Food and Veterinary Office)"
+   ],
+   "richtig": 0,
+   "erklaerung": "In Österreich ist die AGES für die Lebensmittelsicherheit zuständig, auf EU-Ebene ist es die EFSA. Die AMA ist eine Einrichtung zur Unterstützung österreichischer Landwirte und vergibt Gütezeichen, das EU-Lebensmittel- und Veterinäramt kontrolliert im Rahmen der Gemeinschaftskontrolle die nationalen Behörden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 2 Rechtsgrundlagen"
+    }
+   ],
+   "yt": [
+    "AGES Aufgaben Lebensmittelsicherheit Österreich"
+   ],
+   "nr": 420
+  },
+  {
+   "id": "tb08-009",
+   "tb": 8,
+   "thema": "Kontrolle in Österreich",
+   "frage": "Welche Aussage über das Österreichische Lebensmittelbuch (Kodex) trifft zu?",
+   "antworten": [
+    "Es ist ein Gesetz und für alle Produzenten rechtlich bindend",
+    "Es wird von der EFSA herausgegeben und gilt EU-weit",
+    "Es ersetzt in Österreich die Lebensmittelinformationsverordnung",
+    "Es enthält Sachbezeichnungen und Rezepturregelungen, ist aber kein Gesetz"
+   ],
+   "richtig": 3,
+   "erklaerung": "Der Kodex enthält eine systematische Ordnung der Lebensmittel sowie Rezepturregelungen und die verbindlichen Sachbezeichnungen, die Fantasienamen ergänzen müssen. Er ist jedoch kein Gesetz – die Produzentinnen und Produzenten orientieren sich an ihm als Empfehlung für die Lebensmittelproduktion.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 2 Rechtsgrundlagen"
+    }
+   ],
+   "yt": [
+    "Österreichisches Lebensmittelbuch Codex Alimentarius Austriacus"
+   ],
+   "nr": 421
+  },
+  {
+   "id": "tb08-010",
+   "tb": 8,
+   "thema": "Kontrolle in Österreich",
+   "frage": "Ein Lebensmittelaufsichtsorgan zieht in einem Gasthaus aufgrund einer Konsumentenbeschwerde eine Probe. Um welche Art der Kontrolle handelt es sich?",
+   "antworten": [
+    "Routineprobe",
+    "Verdachtsprobe",
+    "Betriebsrevision",
+    "Gemeinschaftskontrolle"
+   ],
+   "richtig": 1,
+   "erklaerung": "Verdachtsproben werden aufgrund von Beschwerden oder eigener Beobachtungen des Aufsichtsorgans gezogen. Routineproben erfolgen dagegen geplant laut Proben- und Revisionsplan ohne akuten Verdacht, die Betriebsrevision kontrolliert den Betrieb selbst samt Eigenkontrolle und Kennzeichnung, und bei der Gemeinschaftskontrolle prüft das EU-Lebensmittel- und Veterinäramt die nationalen Behörden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 2 Rechtsgrundlagen"
+    }
+   ],
+   "yt": [
+    "amtliche Lebensmittelkontrolle Österreich erklärt"
+   ],
+   "nr": 422
+  },
+  {
+   "id": "tb08-011",
+   "tb": 8,
+   "thema": "Zutatenliste und QUID",
+   "frage": "Nach welchem Prinzip ist das Zutatenverzeichnis eines Lebensmittels geordnet?",
+   "antworten": [
+    "Alphabetisch nach dem Namen der Zutaten",
+    "Aufsteigend nach dem Gewichtsanteil der Zutaten",
+    "Absteigend nach dem Gewichtsanteil der Zutaten",
+    "Nach der ernährungsphysiologischen Bedeutung der Zutaten"
+   ],
+   "richtig": 2,
+   "erklaerung": "Das Zutatenverzeichnis zählt sämtliche Zutaten in absteigender Reihenfolge ihres Gewichtsanteils auf: An erster Stelle steht die Zutat mit dem höchsten, an letzter Stelle die mit dem geringsten Gewichtsanteil. Deshalb stehen Zusatzstoffe wegen ihrer geringen Menge meist am Ende der Liste.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Zutatenliste richtig lesen erklärt"
+   ],
+   "nr": 423
+  },
+  {
+   "id": "tb08-012",
+   "tb": 8,
+   "thema": "Zutatenliste und QUID",
+   "frage": "Wie müssen Lebensmittelzusatzstoffe in der Zutatenliste angegeben werden?",
+   "antworten": [
+    "Nur mit ihrer E-Nummer, ohne weitere Angabe",
+    "Mit ihrer Funktionsklasse und der E-Nummer oder dem Namen, z. B. „Verdickungsmittel: Pektin“",
+    "Gar nicht, sie stehen nur in den Herstellerunterlagen",
+    "Nur, wenn ihr Anteil mehr als ein Prozent des Produktes ausmacht"
+   ],
+   "richtig": 1,
+   "erklaerung": "Zusatzstoffe werden in der Zutatenliste mit ihrer Funktionsklasse und der E-Nummer oder dem Namen ausgewiesen, beim Beispieljoghurt etwa „Verdickungsmittel: Johannisbrotkernmehl, Pektin“. Wegen ihrer geringen Menge stehen sie am Ende der Liste, sie müssen aber immer angegeben werden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Zusatzstoffe E-Nummern Zutatenliste erklärt"
+   ],
+   "nr": 424
+  },
+  {
+   "id": "tb08-013",
+   "tb": 8,
+   "thema": "Zutatenliste und QUID",
+   "frage": "Auf dem Etikett eines Fruchtjoghurts steht die Zutatenliste: „Joghurt, Zucker, Erdbeeren, Verdickungsmittel: Pektin“. Wie beurteilen Sie dieses Produkt?",
+   "antworten": [
+    "Es enthält mehr Zucker als Erdbeeren und ist daher ernährungsphysiologisch schlechter zu bewerten",
+    "Es enthält mehr Erdbeeren als Zucker, denn Früchte müssen immer vor dem Zucker genannt werden",
+    "Die Reihenfolge sagt nichts über die Mengen aus, entscheidend ist allein die Nährwerttabelle",
+    "Zucker an zweiter Stelle ist bei Fruchtjoghurt gesetzlich nicht erlaubt"
+   ],
+   "richtig": 0,
+   "erklaerung": "Da die Zutaten absteigend nach Gewichtsanteil gereiht sind, bedeutet Zucker an zweiter Stelle, dass mehr Zucker als Frucht enthalten ist – das Produkt ist ernährungsphysiologisch schlechter zu bewerten. Verboten ist eine solche Rezeptur nicht, sie muss nur ehrlich deklariert werden. Eine lange Liste an Zusatzstoffen und Aromen würde zusätzlich auf ein stark verarbeitetes Produkt hindeuten.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Zutatenliste Zucker Position Qualität beurteilen"
+   ],
+   "grafik": true,
+   "nr": 425
+  },
+  {
+   "id": "tb08-014",
+   "tb": 8,
+   "thema": "Zutatenliste und QUID",
+   "frage": "Wann ist die mengenmäßige Zutatenkennzeichnung (QUID) verpflichtend?",
+   "antworten": [
+    "Für sämtliche Zutaten eines verpackten Lebensmittels",
+    "Nur für Zusatzstoffe und Aromen am Ende der Zutatenliste",
+    "Nur für die 14 kennzeichnungspflichtigen Hauptallergene",
+    "Wenn die Zutat im Produktnamen vorkommt, durch Bilder oder Worte hervorgehoben wird oder das Produkt wesentlich charakterisiert"
+   ],
+   "richtig": 3,
+   "erklaerung": "QUID steht für Quantitative Ingredient Declaration und ist nicht für alle Zutaten notwendig. Verpflichtend ist der prozentuelle Gewichtsanteil, wenn eine Zutat im Namen des Produktes vorkommt (Erdbeerjoghurt mit „12 % Erdbeeren“), auf der Verpackung hervorgehoben wird oder für die Charakterisierung des Produktes wesentlich ist. So lassen sich zwei Erdbeerjoghurts mit 12 % und 6 % Erdbeeren direkt vergleichen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "QUID Mengenkennzeichnung Zutaten erklärt"
+   ],
+   "nr": 426
+  },
+  {
+   "id": "tb08-015",
+   "tb": 8,
+   "thema": "Zutatenliste und QUID",
+   "frage": "Was bedeutet die Angabe „natürliches Erdbeeraroma“ auf einer Verpackung?",
+   "antworten": [
+    "Es sind ausschließlich natürliche Aromastoffe enthalten, die zu mindestens 95 % aus Erdbeeren stammen",
+    "Das Aroma wurde synthetisch hergestellt, schmeckt aber wie Erdbeere",
+    "Mindestens 50 % der Aromastoffe stammen aus Erdbeeren, der Rest darf synthetisch sein",
+    "Das Produkt enthält mindestens 95 % echte Erdbeeren"
+   ],
+   "richtig": 0,
+   "erklaerung": "„Natürliches Erdbeeraroma“ bedeutet, dass ausschließlich natürliche Aromastoffe enthalten sind und diese zu mindestens 95 % aus Erdbeeren stammen. Steht dagegen nur „Aroma“, kann der Stoff auch synthetisch hergestellt sein. Die 95-Prozent-Regel bezieht sich auf das Aroma, nicht auf den Fruchtanteil des Produktes.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "natürliches Aroma Kennzeichnung Unterschied erklärt"
+   ],
+   "nr": 427
+  },
+  {
+   "id": "tb08-016",
+   "tb": 8,
+   "thema": "Allergenkennzeichnung",
+   "frage": "Welcher Stoff gehört NICHT zu den 14 kennzeichnungspflichtigen Hauptallergenen?",
+   "antworten": [
+    "Lupinen",
+    "Sellerie",
+    "Erdbeeren",
+    "Weichtiere"
+   ],
+   "richtig": 2,
+   "erklaerung": "Erdbeeren zählen nicht zu den 14 kennzeichnungspflichtigen Hauptallergenen. Dazu gehören glutenhaltiges Getreide, Krebstiere, Ei, Fisch, Erdnuss, Soja, Milch oder Laktose, Schalenfrüchte, Sellerie, Senf, Sesam, Sulfite, Lupinen und Weichtiere, im Buch mit den Kennbuchstaben A bis R angeführt. Lupinen sind eiweißreiche Pflanzen, Weichtiere sind Muscheln, Tintenfische und Schnecken.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "14 Hauptallergene Kennzeichnung erklärt"
+   ],
+   "nr": 428
+  },
+  {
+   "id": "tb08-017",
+   "tb": 8,
+   "thema": "Allergenkennzeichnung",
+   "frage": "Auf einem Joghurtbecher lautet die Zutatenliste: „JOGHURT mit 3,6 % Fett, 12 % Erdbeeren, Zucker, Verdickungsmittel: Pektin“. Warum ist das Wort „JOGHURT“ in Großbuchstaben geschrieben?",
+   "antworten": [
+    "Die mengenmäßig größte Zutat muss immer in Großbuchstaben stehen",
+    "Der Markenname muss sich optisch von den übrigen Zutaten abheben",
+    "Die Großschreibung ist die vorgeschriebene Form der QUID-Kennzeichnung",
+    "Damit ist das Allergen Milch bzw. Laktose in der Zutatenliste hervorgehoben"
+   ],
+   "richtig": 3,
+   "erklaerung": "Die 14 Hauptallergene müssen in der Zutatenliste hervorgehoben werden – hier kennzeichnet die Großschreibung von „JOGHURT“ das Allergen Milch/Laktose. Zulässig sind neben Großbuchstaben auch Fettdruck, Unterstreichung oder eine andere deutlich abgesetzte Schreibweise. Mit der Menge der Zutat oder der QUID-Angabe hat die Schreibweise nichts zu tun.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Allergenkennzeichnung Zutatenliste Hervorhebung erklärt"
+   ],
+   "grafik": true,
+   "nr": 429
+  },
+  {
+   "id": "tb08-018",
+   "tb": 8,
+   "thema": "Allergenkennzeichnung",
+   "frage": "Wie muss in Österreich über kennzeichnungspflichtige Allergene bei unverpackter Ware und in der Gastronomie informiert werden?",
+   "antworten": [
+    "Es muss immer eine schriftliche Allergen-Deklaration aufliegen",
+    "Mündlich oder schriftlich – die mündliche Auskunft durch geschultes Personal genügt",
+    "Bei offener Ware besteht keine Informationspflicht über Allergene",
+    "Die Information ist nur auf schriftliche Nachfrage beim Hersteller erhältlich"
+   ],
+   "richtig": 1,
+   "erklaerung": "Bei unverpackten Waren und im Außer-Haus-Verzehr sind die Informationen zu den kennzeichnungspflichtigen Allergenen mündlich oder schriftlich möglich. In Österreich genügt also die mündliche Auskunft durch das geschulte Personal, es muss keine schriftliche Deklaration ausliegen. Eine völlige Befreiung von der Informationspflicht gibt es aber nicht.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Allergeninformation Gastronomie offene Ware Österreich"
+   ],
+   "nr": 430
+  },
+  {
+   "id": "tb08-019",
+   "tb": 8,
+   "thema": "Allergenkennzeichnung",
+   "frage": "Was bedeutet der Hinweis „Kann Spuren von Erdnüssen enthalten“ auf einer Verpackung?",
+   "antworten": [
+    "Ein freiwilliger Hinweis auf Allergieauslöser, die unbeabsichtigt durch Transport, Produktion oder Lagerung ins Produkt gelangen können",
+    "Ein verpflichtender Hinweis, weil Erdnüsse als Zutat verarbeitet wurden",
+    "Ein Hinweis, dass der Erdnussanteil unter 0,9 % liegt und daher nicht in die Zutatenliste muss",
+    "Ein von der Lebensmittelaufsicht vorgeschriebener Warnhinweis nach einer positiven Probe"
+   ],
+   "richtig": 0,
+   "erklaerung": "Mit „Kann Spuren von … enthalten“ machen viele Hersteller freiwillig auf Allergieauslöser aufmerksam, die unbeabsichtigt in ein Produkt gelangen können. Das ist keine Pflichtkennzeichnung und darf nicht mit der verpflichtenden Allergenkennzeichnung verwechselt werden, die für Allergene gilt, die als Zutat im Enderzeugnis vorhanden sind.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "kann Spuren enthalten Bedeutung Allergene"
+   ],
+   "nr": 431
+  },
+  {
+   "id": "tb08-020",
+   "tb": 8,
+   "thema": "Allergenkennzeichnung",
+   "frage": "Unter welcher Bedingung darf ein Lebensmittel als „glutenfrei“ ausgelobt werden?",
+   "antworten": [
+    "Wenn es höchstens 200 mg Gluten pro kg enthält",
+    "Wenn es überhaupt kein nachweisbares Gluten enthält",
+    "Wenn es höchstens 20 mg Gluten pro kg enthält",
+    "Wenn der Anteil glutenhaltiger Zutaten unter 0,9 % liegt"
+   ],
+   "richtig": 2,
+   "erklaerung": "Mit „glutenfrei“ dürfen laut Verordnung (EG) Nr. 41/2009 Lebensmittel ausgelobt werden, die beim Verkauf an den Endverbraucher maximal 20 mg Gluten pro kg enthalten. Zusätzlich werden glutenfreie Lebensmittel mit dem Symbol der durchgestrichenen Ähre gekennzeichnet – eine sichere Wahl für Menschen mit Zöliakie.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    },
+    {
+     "band": "Prävention",
+     "kapitel": "Ernährung und Krankheit, Abschnitt 16 Zöliakie"
+    }
+   ],
+   "yt": [
+    "glutenfrei Kennzeichnung durchgestrichene Ähre erklärt"
+   ],
+   "nr": 432
+  },
+  {
+   "id": "tb08-021",
+   "tb": 8,
+   "thema": "MHD und Verbrauchsdatum",
+   "frage": "Was sagt das Mindesthaltbarkeitsdatum (MHD) eines Lebensmittels aus?",
+   "antworten": [
+    "Ab diesem Datum ist das Lebensmittel gesundheitsgefährdend und darf nicht mehr gegessen werden",
+    "Bis zu diesem Datum muss das Lebensmittel verkauft und danach vernichtet werden",
+    "Es ergibt sich aus dem Herstellungsdatum plus einer gesetzlich festgelegten Frist",
+    "Bis zu diesem Datum behält das Lebensmittel unter den angegebenen Lagerbedingungen seine spezifischen Eigenschaften – eine Qualitätsgarantie des Herstellers"
+   ],
+   "richtig": 3,
+   "erklaerung": "Das MHD („mindestens haltbar bis“) gibt an, bis zu welchem Datum das Lebensmittel unter den angegebenen Lagerbedingungen seine spezifischen Eigenschaften und seinen Geschmack behält – es ist eine Qualitätsgarantie, kein Verfallsdatum. Die Länge bestimmt der Hersteller selbst durch Lagerversuche sowie mikrobiologische und sensorische Untersuchungen, nicht der Gesetzgeber.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Mindesthaltbarkeitsdatum Bedeutung erklärt"
+   ],
+   "nr": 433
+  },
+  {
+   "id": "tb08-022",
+   "tb": 8,
+   "thema": "MHD und Verbrauchsdatum",
+   "frage": "Für welche Lebensmittel ist ein Verbrauchsdatum („zu verbrauchen bis“) zwingend vorgeschrieben?",
+   "antworten": [
+    "Für alle verpackten Lebensmittel ohne Konservierungsstoffe",
+    "Für besonders leicht verderbliche Waren wie rohes Faschiertes oder rohes Huhn",
+    "Für alle gekühlt gelagerten Milchprodukte wie Joghurt und Topfen",
+    "Für Tiefkühlware, bei der zusätzlich das Einfrierdatum angegeben ist"
+   ],
+   "richtig": 1,
+   "erklaerung": "Das Verbrauchsdatum ist für besonders leicht verderbliche Waren zwingend vorgeschrieben, zum Beispiel rohes Faschiertes, Knochen oder rohes Huhn – es ist ein Sicherheitsdatum. Joghurt und die meisten anderen Lebensmittel tragen dagegen ein Mindesthaltbarkeitsdatum, also eine Qualitätsgarantie. Merkhilfe: MHD gleich Qualität, Verbrauchsdatum gleich Sicherheit.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Verbrauchsdatum MHD Unterschied erklärt"
+   ],
+   "nr": 434
+  },
+  {
+   "id": "tb08-023",
+   "tb": 8,
+   "thema": "MHD und Verbrauchsdatum",
+   "frage": "Darf ein Joghurt nach Ablauf des Mindesthaltbarkeitsdatums noch verkauft werden?",
+   "antworten": [
+    "Nein, denn nach dem MHD gilt jedes Lebensmittel als gesundheitsgefährdend",
+    "Nein, es darf nur noch kostenlos abgegeben werden",
+    "Ja, mit deutlicher Kennzeichnung – das MHD ist kein Verfallsdatum",
+    "Ja, ohne jede Einschränkung, das MHD hat rechtlich keine Bedeutung"
+   ],
+   "richtig": 2,
+   "erklaerung": "Das MHD ist kein Verfallsdatum: Lebensmittel dürfen auch nach seinem Ablauf noch verkauft werden, müssen dann aber deutlich gekennzeichnet sein, und sie sind häufig noch einwandfrei genießbar. Statt automatisch zu entsorgen, prüft man mit den Sinnen – ansehen, riechen, kosten. Anders beim Verbrauchsdatum: Danach dürfen Waren wie Faschiertes weder verkauft noch verzehrt werden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "MHD abgelaufen noch essbar Lebensmittelverschwendung"
+   ],
+   "nr": 435
+  },
+  {
+   "id": "tb08-024",
+   "tb": 8,
+   "thema": "MHD und Verbrauchsdatum",
+   "frage": "Welches dieser Lebensmittel benötigt KEIN Mindesthaltbarkeitsdatum?",
+   "antworten": [
+    "Naturjoghurt",
+    "Essig",
+    "Bier mit 5 Volumenprozent Alkohol",
+    "Gefrorenes Hühnerfleisch"
+   ],
+   "richtig": 1,
+   "erklaerung": "Kein MHD ist zum Beispiel notwendig bei Essig, Salz, Backwaren, die normalerweise innerhalb von 24 Stunden nach der Herstellung verzehrt werden, und alkoholischen Getränken mit mehr als 10 Volumenprozent. Bier liegt mit 5 Volumenprozent darunter und braucht ein MHD; die Angabe des Alkoholgehalts ist übrigens schon ab mehr als 1,2 Volumenprozent verpflichtend. Für gefrorenes Fleisch ist zusätzlich zum Datum das Einfrierdatum anzugeben.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Mindesthaltbarkeitsdatum Ausnahmen Salz Essig"
+   ],
+   "nr": 436
+  },
+  {
+   "id": "tb08-025",
+   "tb": 8,
+   "thema": "MHD und Verbrauchsdatum",
+   "frage": "Auf einer Packung Faschiertem steht: „Zu verbrauchen bis 20.07.“ Heute ist der 21.07. Wie beurteilen Sie die Ware?",
+   "antworten": [
+    "Sie darf nicht mehr verkauft und nicht mehr verzehrt werden, da sie gesundheitsgefährdend sein kann",
+    "Sie darf mit deutlicher Kennzeichnung verbilligt weiterverkauft werden",
+    "Nach einer Sinnenprüfung – ansehen, riechen, kosten – darf sie noch verwendet werden",
+    "Vollständig durcherhitzt darf sie noch bedenkenlos verzehrt werden"
+   ],
+   "richtig": 0,
+   "erklaerung": "Beim Verbrauchsdatum gibt es keinen Spielraum: Nach diesem Datum dürfen die Lebensmittel nicht mehr verkauft und nicht mehr verzehrt werden, da sie gesundheitsgefährdend sein können – das gilt besonders für leicht verderbliche Ware wie Faschiertes. Der verbilligte Weiterverkauf und die Sinnenprüfung gelten nur für das Mindesthaltbarkeitsdatum, das eine reine Qualitätsgarantie ist.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Verbrauchsdatum Faschiertes abgelaufen Gefahr"
+   ],
+   "grafik": true,
+   "nr": 437
+  },
+  {
+   "id": "tb08-026",
+   "tb": 8,
+   "thema": "Nährwertdeklaration",
+   "frage": "In welcher Reihenfolge müssen die sieben Pflichtangaben der Nährwertdeklaration angeführt werden?",
+   "antworten": [
+    "Energie, Fett, davon gesättigte Fettsäuren, Kohlenhydrate, davon Zucker, Eiweiß, Salz",
+    "Energie, Eiweiß, Fett, Kohlenhydrate, davon Zucker, Ballaststoffe, Salz",
+    "Energie, Kohlenhydrate, davon Zucker, Fett, davon gesättigte Fettsäuren, Salz, Eiweiß",
+    "Fett, Kohlenhydrate, Eiweiß, Energie, davon Zucker, davon gesättigte Fettsäuren, Salz"
+   ],
+   "richtig": 0,
+   "erklaerung": "Die Nährwertdeklaration umfasst sieben Pflichtangaben in der vorgeschriebenen Reihenfolge Energie, Fett, davon gesättigte Fettsäuren, Kohlenhydrate, davon Zucker, Eiweiß, Salz. Ballaststoffe gehören nicht zu den Pflichtangaben, sie dürfen nur freiwillig ergänzt werden – genauso wie ungesättigte Fettsäuren, mehrwertige Alkohole, Stärke sowie bestimmte Vitamine und Mineralstoffe.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Nährwerttabelle Pflichtangaben Reihenfolge erklärt"
+   ],
+   "nr": 438
+  },
+  {
+   "id": "tb08-027",
+   "tb": 8,
+   "thema": "Nährwertdeklaration",
+   "frage": "Worauf beziehen sich die Werte der verpflichtenden Nährwertdeklaration?",
+   "antworten": [
+    "Auf eine Portion, wie sie der Hersteller definiert",
+    "Immer auf 100 Gramm bzw. 100 Milliliter des Lebensmittels",
+    "Auf den gesamten Packungsinhalt",
+    "Auf die Referenzmenge eines durchschnittlichen Erwachsenen"
+   ],
+   "richtig": 1,
+   "erklaerung": "Die Nährwertdeklaration erfolgt immer bezogen auf 100 Gramm oder 100 Milliliter – dadurch sind verschiedene Produkte direkt vergleichbar. Eine Portionsangabe, etwa pro Becher, ist nur freiwillig zusätzlich möglich; zur Beurteilung und zum Produktvergleich zieht man immer die 100-g-Spalte heran.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Nährwerttabelle 100 g vergleichen lernen"
+   ],
+   "nr": 439
+  },
+  {
+   "id": "tb08-028",
+   "tb": 8,
+   "thema": "Nährwertdeklaration",
+   "frage": "Wie viel Fett darf ein Lebensmittel höchstens enthalten, damit es als „fettarm“ bezeichnet werden darf?",
+   "antworten": [
+    "Höchstens 1 g Fett pro 100 g",
+    "Höchstens 3 g Fett pro 100 g",
+    "Höchstens 5 g Fett pro 100 g",
+    "Höchstens 10 g Fett pro 100 g"
+   ],
+   "richtig": 1,
+   "erklaerung": "Nährwertbezogene Bezeichnungen sind exakt geregelt: „fettarm“ darf sich nur ein Lebensmittel mit höchstens 3 g Fett pro 100 g nennen, „energiefrei“ nur eines mit höchstens 4 kcal pro 100 g. Solche Grenzwerte dienen als Messlatte bei der Beurteilung – der Beispieljoghurt liegt mit 2,8 g Fett pro 100 g unter der Fettarm-Grenze.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "fettarm energiefrei nährwertbezogene Angaben erklärt"
+   ],
+   "nr": 440
+  },
+  {
+   "id": "tb08-029",
+   "tb": 8,
+   "thema": "Nährwertdeklaration",
+   "frage": "Unter welcher Bedingung darf ein Joghurt mit der Aussage „Stärkt die Knochen“ beworben werden?",
+   "antworten": [
+    "Immer, denn freiwillige Werbeaussagen sind rechtlich nicht geregelt",
+    "Nur, wenn das Produkt zusätzlich als Arzneimittel zugelassen ist",
+    "Nur, wenn das Produkt ein staatliches Gütezeichen trägt",
+    "Nur, wenn die versprochene Wirkung den wissenschaftlichen Erkenntnissen tatsächlich entspricht"
+   ],
+   "richtig": 3,
+   "erklaerung": "Gesundheitsbezogene Aussagen fallen unter die Health-Claims-Verordnung (EG) Nr. 1924/2006: Mit ihnen darf nur geworben werden, wenn die versprochene Wirkung den wissenschaftlichen Erkenntnissen tatsächlich entspricht. Das gilt besonders für Functional Food wie probiotisches Joghurt oder Margarine mit Phytosterinen – diese Produkte unterliegen dem Lebensmittelgesetz, nicht dem Arzneimittelrecht.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    },
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Spezifische Lebensmittelgruppen, Abschnitt 3 Functional Food"
+    }
+   ],
+   "yt": [
+    "Health Claims Verordnung einfach erklärt"
+   ],
+   "nr": 441
+  },
+  {
+   "id": "tb08-030",
+   "tb": 8,
+   "thema": "Nährwertdeklaration",
+   "frage": "Die Nährwerttabelle eines Fruchtjoghurts nennt pro 100 g: Energie 381 kJ/90 kcal (4,5 % der Referenzmenge), Fett 2,8 g, Kohlenhydrate 13 g, davon Zucker 13 g (14 % der Referenzmenge). Wie beurteilen Sie das Produkt?",
+   "antworten": [
+    "Es ist fettreich, denn 2,8 g Fett liegen über der Grenze für „fettarm“",
+    "Es ist ausgewogen, weil alle Angaben unter 15 % der Referenzmenge liegen",
+    "Es ist zuckerreich, denn praktisch alle Kohlenhydrate sind Zucker und 14 % der Referenzmenge werden erreicht – beim Fett liegt es dagegen unter der Fettarm-Grenze",
+    "Es ist energiereich, denn 90 kcal pro 100 g überschreiten den Grenzwert für „energiefrei“ deutlich"
+   ],
+   "richtig": 2,
+   "erklaerung": "Da Kohlenhydrate und Zucker mit je 13 g gleich hoch sind, sind praktisch alle Kohlenhydrate Zucker – teils Milchzucker, teils zugesetzter Zucker – und mit 14 % der Referenzmenge (8 400 kJ/2 000 kcal für einen durchschnittlichen Erwachsenen) ist das ein deutlicher Hinweis auf ein zuckerreiches Produkt. Fett liegt mit 2,8 g unter der Fettarm-Grenze von 3 g pro 100 g, und Energie ist mit 4,5 % der Referenzmenge niedrig.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Nährwerttabelle beurteilen Zuckergehalt erkennen"
+   ],
+   "grafik": true,
+   "nr": 442
+  },
+  {
+   "id": "tb08-031",
+   "tb": 8,
+   "thema": "Weitere Pflichtangaben",
+   "frage": "Welche Mengenangaben sind bei Essiggurkerln im Glas vorgeschrieben, und welche zählt für den Preisvergleich?",
+   "antworten": [
+    "Nur die Nettofüllmenge – sie ist für den Preisvergleich maßgeblich",
+    "Nettofüllmenge und Abtropfgewicht – für den Preisvergleich zählt die Nettofüllmenge",
+    "Die Stückzahl der Gurkerl genügt als Mengenangabe",
+    "Nettofüllmenge und Abtropfgewicht – für den Preisvergleich zählt das Abtropfgewicht"
+   ],
+   "richtig": 3,
+   "erklaerung": "Bei Lebensmitteln in einer Aufgussflüssigkeit wie Gemüse- und Obstkonserven oder Essiggurken sind Nettofüllmenge und Abtropfgewicht anzugeben. Für den Preisvergleich zählt das Abtropfgewicht, denn nur das isst man tatsächlich. Die Stückzahl genügt nur bei Produkten wie Eiern, Backoblaten oder Strudelteig.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Abtropfgewicht Füllmenge Konserven erklärt"
+   ],
+   "nr": 443
+  },
+  {
+   "id": "tb08-032",
+   "tb": 8,
+   "thema": "Weitere Pflichtangaben",
+   "frage": "Wozu dient die Loskennzeichnung auf Lebensmittelverpackungen?",
+   "antworten": [
+    "Sie ermöglicht den gezielten Rückruf von Verkaufseinheiten, die unter gleichen Bedingungen erzeugt, hergestellt und verpackt wurden",
+    "Sie kennzeichnet Produkte international in einem computerlesbaren Strichcode",
+    "Sie belegt die Herkunft der verwendeten Rohstoffe aus einem bestimmten Land",
+    "Sie bestätigt die Herstellung nach den EU-Hygieneregelungen"
+   ],
+   "richtig": 0,
+   "erklaerung": "Die Loskennzeichnung ist eine Buchstaben- bzw. Ziffernkombination für alle Verkaufseinheiten, die unter gleichen Bedingungen erzeugt, hergestellt und verpackt wurden. Muss ein Lebensmittel wegen gesundheitlicher Gefährdung zurückgerufen werden, kann gezielt das betroffene Los aus dem Handel genommen werden, ohne die gesamte Produktion zu vernichten. Der computerlesbare Strichcode ist die GTIN, die Hygienebestätigung das Identitätskennzeichen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Loskennzeichnung Lebensmittel Rückruf erklärt"
+   ],
+   "nr": 444
+  },
+  {
+   "id": "tb08-033",
+   "tb": 8,
+   "thema": "Weitere Pflichtangaben",
+   "frage": "Auf einer Butter ist im ovalen Identitätskennzeichen „AT“ angegeben. Eine Kundin schließt daraus, dass die Milch aus Österreich stammt. Wie beurteilen Sie das?",
+   "antworten": [
+    "Sie hat recht – das Identitätskennzeichen garantiert die österreichische Herkunft des Rohstoffs",
+    "Sie irrt – das Kennzeichen bestätigt nur die Herstellung nach EU-Hygieneregelungen und nennt das Land der Verarbeitung; die Milch kann etwa aus Deutschland stammen",
+    "Sie hat recht, allerdings nur bei Produkten, die zusätzlich das AMA-Gütesiegel tragen",
+    "Sie irrt – „AT“ steht im Identitätskennzeichen für die zugelassene Biokontrollstelle"
+   ],
+   "richtig": 1,
+   "erklaerung": "Das Identitätskennzeichen bestätigt, dass ein Lebensmittel entsprechend den EU-Hygieneregelungen hergestellt wurde; die Buchstaben-Ziffern-Kombination kennzeichnet den Verarbeitungsbetrieb und das Land der Verarbeitung. Es ist keine Herkunftsangabe: Butter einer österreichischen Molkerei mit „AT“ kann Milch aus Deutschland enthalten. Eine Herkunftsgarantie für die Rohstoffe bietet zum Beispiel das AMA-Gütesiegel – aber unabhängig vom Identitätskennzeichen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Identitätskennzeichen Lebensmittel oval AT erklärt"
+   ],
+   "grafik": true,
+   "nr": 445
+  },
+  {
+   "id": "tb08-034",
+   "tb": 8,
+   "thema": "Weitere Pflichtangaben",
+   "frage": "Auf einer Tiefkühlpizza findet sich statt „Käse“ die Zutat „streufertiger Backbelag für Pizza“ mit pflanzlichen Fetten und Stärke. Was liegt hier vor?",
+   "antworten": [
+    "Eine eigene Spezialkäsesorte, die nur für die Industrie hergestellt wird",
+    "Ein Kennzeichnungsverstoß, denn auf Pizza muss echter Käse verwendet werden",
+    "Ein Lebensmittelimitat (Analogkäse), das die Bezeichnung „Käse“ nicht tragen darf",
+    "Ein laktosefreies Milchprodukt mit reduziertem Fettgehalt"
+   ],
+   "richtig": 2,
+   "erklaerung": "Zum Schutz vor Täuschung muss deutlich gekennzeichnet sein, wenn ein Lebensmittelimitat vorliegt. Da Imitate die Bezeichnung „Käse“ nicht tragen dürfen, verraten sie sich durch Formulierungen wie „streufertiger Backbelag für Pizza“ und Zutaten wie pflanzliche Fette und Stärke. Verboten ist die Verwendung nicht, sie muss nur ehrlich deklariert werden – ähnlich wie zusammengefügte Fleischerzeugnisse den Hinweis „Aus Fleischstücken zusammengefügt“ tragen müssen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Analogkäse erkennen Kennzeichnung Imitate"
+   ],
+   "nr": 446
+  },
+  {
+   "id": "tb08-035",
+   "tb": 8,
+   "thema": "Weitere Pflichtangaben",
+   "frage": "Welche der folgenden Aussagen zur Spezialkennzeichnung treffen zu?",
+   "antworten": [
+    "Nur 1 und 2",
+    "2, 3 und 4",
+    "1, 2 und 4",
+    "Alle vier Aussagen"
+   ],
+   "richtig": 2,
+   "erklaerung": "Die Aussagen zu Nanomaterialien, Bestrahlung und dem Farbstoff-Warnhinweis treffen zu. Aussage 3 ist falsch: Gentechnisch veränderte Lebensmittel müssen auch dann gekennzeichnet werden, wenn die GVO im Endprodukt nicht mehr nachweisbar sind – etwa Öl aus gentechnisch verändertem Soja. Kennzeichnungspflichtig sind zudem Produkte aus Agrarrohstoffen mit mehr als 0,9 % GVO-Material.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    },
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmitteltechnologie, Abschnitt 8 Gentechnik in Lebensmitteln"
+    }
+   ],
+   "yt": [
+    "Gentechnik Kennzeichnung Lebensmittel erklärt"
+   ],
+   "aussagen": [
+    "Zutaten in Form technisch hergestellter Nanomaterialien müssen im Zutatenverzeichnis mit dem Zusatz „(Nano)“ gekennzeichnet werden.",
+    "Bestrahlte Lebensmittel müssen mit „bestrahlt“ oder „mit ionisierender Strahlung behandelt“ gekennzeichnet werden.",
+    "Öl aus gentechnisch verändertem Soja muss nicht gekennzeichnet werden, wenn die GVO im Endprodukt nicht mehr nachweisbar sind.",
+    "Bestimmte synthetische Farbstoffe müssen mit dem Hinweis „Kann Aktivität und Aufmerksamkeit von Kindern beeinträchtigen“ gekennzeichnet werden."
+   ],
+   "nr": 447
+  },
+  {
+   "id": "tb08-036",
+   "tb": 8,
+   "thema": "Perspektiven der Kennzeichnung",
+   "frage": "Welchen Zweck erfüllt die Lebensmittelkennzeichnung in erster Linie aus Sicht des Gesetzgebers?",
+   "antworten": [
+    "Schutz vor Gesundheitsschäden, Täuschung und Irreführung sowie Rückverfolgbarkeit und Kontrollierbarkeit",
+    "Marketing, Markenbildung und Abgrenzung vom Mitbewerb",
+    "Vergleich von Zusammensetzung, Nährwert und Preis beim Einkauf",
+    "Ersatz der amtlichen Lebensmittelkontrolle durch Selbstauskunft der Betriebe"
+   ],
+   "richtig": 0,
+   "erklaerung": "Aus Sicht des Gesetzgebers dient die Kennzeichnung dem Verbraucherschutz vor Gesundheitsschäden, Täuschung und Irreführung, der Rückverfolgbarkeit über Loskennzeichnung und Dokumentationspflichten sowie der Kontrollierbarkeit bei der Betriebsrevision. Marketing und Abgrenzung sind die Produzentenperspektive, die informierte Kaufentscheidung ist die Konsumentenperspektive – dieselbe Kennzeichnung erfüllt alle drei Aufgaben.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 1 Lebensmittelqualität aus unterschiedlicher Sicht"
+    }
+   ],
+   "yt": [
+    "Lebensmittelkennzeichnung Verbraucherschutz Bedeutung"
+   ],
+   "nr": 448
+  },
+  {
+   "id": "tb08-037",
+   "tb": 8,
+   "thema": "Perspektiven der Kennzeichnung",
+   "frage": "Warum ist die Kennzeichnung gerade für die Prozessqualität eines Lebensmittels – etwa die biologische Erzeugung – so wichtig?",
+   "antworten": [
+    "Weil sich Prozessqualität unmittelbar im Geschmack des Produktes zeigt",
+    "Weil die Prozessqualität gesetzlich nicht geregelt ist und daher beworben werden darf",
+    "Weil die Prozessqualität nur den Genusswert des Lebensmittels betrifft",
+    "Weil man sie dem Produkt nicht ansieht – sie wird erst über Dokumentation, Kontrolle und Kennzeichnung sichtbar"
+   ],
+   "richtig": 3,
+   "erklaerung": "Bei der Prozessqualität stehen die Erzeugung und ihre Auswirkungen auf Menschen, Tiere und Umwelt im Mittelpunkt – sie ist am Produkt selbst nicht direkt nachweisbar, sondern nur über Dokumentation und Kontrolle. Die Kennzeichnung ist das Bindeglied: Sie macht Eigenschaften wie eine biologische Erzeugung, die man dem Produkt nicht ansieht, überhaupt erst sichtbar. Die Produktqualität mit Genuss-, Eignungs- und Gesundheitswert betrifft dagegen das Lebensmittel selbst.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 1 Lebensmittelqualität aus unterschiedlicher Sicht"
+    }
+   ],
+   "yt": [
+    "Produktqualität Prozessqualität Lebensmittel Unterschied"
+   ],
+   "nr": 449
+  },
+  {
+   "id": "tb08-038",
+   "tb": 8,
+   "thema": "Marken- und Gütezeichen",
+   "frage": "Worin unterscheidet sich ein Gütezeichen von einer Marke?",
+   "antworten": [
+    "Eine Marke garantiert geprüfte Qualität, ein Gütezeichen dient nur der Wiedererkennung",
+    "Es gibt keinen Unterschied, beide Begriffe bezeichnen dasselbe",
+    "Ein Gütezeichen signalisiert eine bestimmte, überprüfte Qualität – eine Marke ist nur ein rechtlich geschütztes Zeichen ohne Qualitätsaussage",
+    "Gütezeichen werden ausschließlich staatlich vergeben, Marken ausschließlich privat"
+   ],
+   "richtig": 2,
+   "erklaerung": "Eine Marke ist ein rechtlich geschütztes Zeichen, das ein Produkt vom Konkurrenzprodukt unterscheidet – sie sagt für sich allein nichts über die Qualität aus. Ein Gütezeichen signalisiert dagegen eine bestimmte, überprüfte Qualität. Es gibt staatliche Gütezeichen wie das AMA-Gütesiegel oder das EU-Biozeichen, häufiger sind aber privatwirtschaftliche Gütezeichen von Unternehmen oder Verbänden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Gütesiegel Marke Unterschied Lebensmittel erklärt"
+   ],
+   "nr": 450
+  },
+  {
+   "id": "tb08-039",
+   "tb": 8,
+   "thema": "Marken- und Gütezeichen",
+   "frage": "Ein Schweinsschnitzel trägt das AMA-Gütesiegel. Was garantiert dieses Zeichen?",
+   "antworten": [
+    "Österreichische Rohstoffe, Verarbeitung in Österreich und geprüfte Qualität – aber keine biologische Erzeugung",
+    "Die biologische Erzeugung des Fleisches nach EU-Recht",
+    "Die biologische Erzeugung mit garantiert österreichischem Ursprung",
+    "Artgerechte Freilandhaltung ohne gentechnisch veränderte Futtermittel"
+   ],
+   "richtig": 0,
+   "erklaerung": "Das AMA-Gütesiegel garantiert die Herstellung nach den strengen Bestimmungen des österreichischen Lebensmittelrechts mit Zusatzanforderungen, die Erzeugung der Rohstoffe in österreichischer Landwirtschaft und die Verarbeitung in Österreich – es ist aber kein Biosiegel. Erst das AMA-Biozeichen garantiert biologische Erzeugung. Das ist die klassische Fangfrage des Kapitels.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "AMA Gütesiegel Bedeutung erklärt"
+   ],
+   "nr": 451
+  },
+  {
+   "id": "tb08-040",
+   "tb": 8,
+   "thema": "Marken- und Gütezeichen",
+   "frage": "Was bedeutet die geschützte geographische Angabe bei „Steirisches Kürbiskernöl g. g. A.“?",
+   "antworten": [
+    "Alle Rohstoffe stammen aus dem Gebiet und der Produktionsbetrieb ist dort ansässig",
+    "Das Produkt hat eine traditionelle Zusammensetzung bzw. Herstellungsweise",
+    "Das Produkt wurde in der Region biologisch erzeugt",
+    "Wenigstens einer der Produktionsschritte erfolgte im abgegrenzten Gebiet"
+   ],
+   "richtig": 3,
+   "erklaerung": "Bei der geschützten geographischen Angabe (g. g. A.) muss wenigstens einer der Produktionsschritte im abgegrenzten Gebiet erfolgt sein. Strenger ist die geschützte Ursprungsbezeichnung (g. U.) wie beim Tiroler Bergkäse, bei der die Rohstoffe zum größten Teil aus dem Gebiet stammen bzw. der Betrieb dort ansässig ist. Die garantiert traditionelle Spezialität (g. t. S.) bezieht sich auf Zusammensetzung und Herstellungsweise, etwa bei Mozzarella.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "gU ggA gtS EU Herkunftszeichen erklärt"
+   ],
+   "nr": 452
+  },
+  {
+   "id": "tb08-041",
+   "tb": 8,
+   "thema": "Marken- und Gütezeichen",
+   "frage": "Welche Kriterien beurteilt das MSC-Gütesiegel des Marine Stewardship Council?",
+   "antworten": [
+    "Nur die Schadstofffreiheit des Fischfleisches",
+    "Fischbestand, Fangmethode und Sozialkriterien der Fischerei",
+    "Die biologische Teichwirtschaft in österreichischen Zuchtbetrieben",
+    "Die lückenlose Kühlkette vom Fang bis zur Verkaufstheke"
+   ],
+   "richtig": 1,
+   "erklaerung": "Das MSC-Gütesiegel beurteilt den Fischbestand, die Fangmethode und die Sozialkriterien der Fischerei und wird von den Produzenten freiwillig verwendet. Es bietet damit Orientierung für einen nachhaltigen Fischeinkauf, sagt aber nichts über biologische Teichwirtschaft aus – die ist eine eigene Empfehlung des Einkaufsratgebers für heimischen Fisch.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Fische und Meeresfrüchte, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "MSC Siegel nachhaltiger Fischfang erklärt"
+   ],
+   "nr": 453
+  },
+  {
+   "id": "tb08-042",
+   "tb": 8,
+   "thema": "Bio-Kennzeichnung",
+   "frage": "Was unterscheidet das rot-schwarze vom schwarz-weißen AMA-Biozeichen?",
+   "antworten": [
+    "Das rot-schwarze Zeichen steht für konventionelle, das schwarz-weiße für biologische Erzeugung",
+    "Das schwarz-weiße Zeichen garantiert zusätzlich den österreichischen Ursprung der Rohstoffe",
+    "Das rot-schwarze Zeichen garantiert zusätzlich zur Bioqualität, dass die Rohstoffe aus Österreich stammen – das schwarz-weiße gibt keine Herkunftsgarantie",
+    "Das schwarz-weiße Zeichen gilt nur für unverarbeitete Rohstoffe wie Obst und Gemüse"
+   ],
+   "richtig": 2,
+   "erklaerung": "Beide AMA-Biozeichen garantieren biologische Erzeugung. Das rot-schwarze Zeichen mit Ursprungsangabe garantiert zusätzlich, dass die Rohstoffe aus Österreich stammen – mit Toleranzbereichen nur für Bestandteile, die in Österreich nicht in entsprechender Qualität herstellbar sind, etwa die Vanille im Vanillejoghurt. Das schwarz-weiße Zeichen ohne Ursprungsangabe garantiert kontrolliert biologischen Anbau ohne Aussage zur Herkunft.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "AMA Biozeichen rot schwarz Unterschied"
+   ],
+   "nr": 454
+  },
+  {
+   "id": "tb08-043",
+   "tb": 8,
+   "thema": "Bio-Kennzeichnung",
+   "frage": "Was bedeutet die Angabe „AT BIO 4 01“ auf einem Bioprodukt?",
+   "antworten": [
+    "Ländercode und Nummer der zugelassenen Biokontrollstelle, die den Betrieb überprüft",
+    "Herkunftsregion und Erntejahr der biologischen Rohstoffe",
+    "Betriebs- und Stallnummer des erzeugenden Bauernhofs",
+    "Zulassungsnummer des Verarbeitungsbetriebs nach den EU-Hygieneregelungen"
+   ],
+   "richtig": 0,
+   "erklaerung": "Die BIO-Kontrollnummer ist aus dem Ländercode und der Nummer der Kontrollstelle aufgebaut. Sie belegt, dass der Betrieb von einer zugelassenen Biokontrollstelle überprüft wird, und macht die Kontrolle nachvollziehbar. Die Betriebs- und Stallnummer gehört zum Erzeugercode auf Eiern, die Zulassung des Verarbeitungsbetriebs zeigt das Identitätskennzeichen.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "Bio Kontrollnummer Kontrollstelle erklärt"
+   ],
+   "nr": 455
+  },
+  {
+   "id": "tb08-044",
+   "tb": 8,
+   "thema": "Bio-Kennzeichnung",
+   "frage": "Auf einem Joghurtbecher finden Sie das Biozeichen der Europäischen Kommission; in der Zutatenliste sind mehrere Zutaten mit „*“ markiert, darunter steht „*aus biologischer Landwirtschaft“. Wie beurteilen Sie die Bio-Kennzeichnung?",
+   "antworten": [
+    "Sie ist unvollständig, weil die verpflichtende Formulierung „aus kontrolliert biologischem Anbau“ fehlt",
+    "Nur mit einem zusätzlichen AMA-Gütesiegel wäre es tatsächlich ein Bioprodukt",
+    "Das Sternchen kennzeichnet Allergene, nicht biologische Zutaten",
+    "Sie ist korrekt: Das EU-Biozeichen bestätigt die biologische Erzeugung, und die biologischen Zutaten sind in der Zutatenliste einzeln gekennzeichnet"
+   ],
+   "richtig": 3,
+   "erklaerung": "Das Biozeichen der Europäischen Kommission ist das EU-weite Erkennungszeichen für biologische Lebensmittel, und die biologischen Zutaten müssen in der Zutatenliste einzeln als solche gekennzeichnet werden – beim Beispieljoghurt geschieht das mit dem Sternchen. Verbale Formulierungen wie „aus kontrolliert biologischem Anbau (kbA)“ sind nicht mehr verpflichtend, ein Hinweis auf bio genügt. Das AMA-Gütesiegel ist kein Biosiegel; Allergene werden durch Großbuchstaben, Fettdruck oder Unterstreichung hervorgehoben.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Lebensmittelqualität, Abschnitt 3 Lebensmittelkennzeichnung"
+    }
+   ],
+   "yt": [
+    "EU Biosiegel erkennen Kennzeichnung erklärt"
+   ],
+   "grafik": true,
+   "nr": 456
+  },
+  {
+   "id": "tb08-045",
+   "tb": 8,
+   "thema": "Kennzeichnung von Eiern",
+   "frage": "Auf einem Ei ist der Erzeugercode „0-AT-1234567“ gestempelt. Was lesen Sie daraus ab?",
+   "antworten": [
+    "Ein Ei aus biologischer Erzeugung aus Österreich; die Ziffernfolge identifiziert den Erzeugerbetrieb",
+    "Ein Ei aus Bodenhaltung; „AT“ nennt die Packstelle des Handels",
+    "Ein Ei der Güteklasse 0 aus österreichischer Freilandhaltung",
+    "Ein importiertes Ei aus Käfighaltung, das nur an die Industrie verkauft werden darf"
+   ],
+   "richtig": 0,
+   "erklaerung": "Der Erzeugercode besteht aus dem Code für das Haltungssystem, dem Code des Registrierungsmitgliedstaates und der Betriebs- und Stallnummer. Die „0“ steht für biologische Erzeugung – immer Freilandhaltung, beste Qualität und garantiert ohne gentechnisch veränderte Futtermittel –, „AT“ für Österreich, und die Ziffernfolge identifiziert den Erzeugerbetrieb. Die Güteklasse (A oder B) steht dagegen auf der Eierpackung, nicht im Erzeugercode.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Eier, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "Eierstempel Erzeugercode Bedeutung erklärt"
+   ],
+   "grafik": true,
+   "nr": 457
+  },
+  {
+   "id": "tb08-046",
+   "tb": 8,
+   "thema": "Kennzeichnung von Eiern",
+   "frage": "Wofür steht die Ziffer „3“ im Erzeugercode eines Eies, und was gilt für diese Haltungsform in Österreich?",
+   "antworten": [
+    "Für Freilandhaltung – sie ist in Österreich die häufigste Haltungsform",
+    "Für biologische Erzeugung – sie ist in Österreich der gesetzliche Standard",
+    "Für Bodenhaltung – sie ist in Österreich nur mit Auslauf erlaubt",
+    "Für Käfighaltung – sie ist in Österreich verboten"
+   ],
+   "richtig": 3,
+   "erklaerung": "Die Codes für das Haltungssystem lauten: 0 für biologische Erzeugung, 1 für Freilandhaltung, 2 für Bodenhaltung und 3 für Käfighaltung, die in Österreich verboten ist. Eier mit dem Code 3 können aber aus anderen Ländern stammen – der zweite Teil des Codes nennt den Registrierungsmitgliedstaat, etwa DE für Deutschland oder NL für die Niederlande.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Eier, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "Haltungsformen Eier 0 1 2 3 erklärt"
+   ],
+   "nr": 458
+  },
+  {
+   "id": "tb08-047",
+   "tb": 8,
+   "thema": "Kennzeichnung von Eiern",
+   "frage": "Bis zu welchem Tag ab dem Legedatum dürfen frische Eier verkauft werden („Verkauf bis …“)?",
+   "antworten": [
+    "Bis zum 7. Tag ab dem Legedatum",
+    "Bis zum 14. Tag ab dem Legedatum",
+    "Bis zum 21. Tag ab dem Legedatum",
+    "Bis zum 28. Tag ab dem Legedatum"
+   ],
+   "richtig": 2,
+   "erklaerung": "Der letzte Verkaufstag ist der 21. Tag ab dem Legedatum, das Mindesthaltbarkeitsdatum ist der 28. Tag ab dem Legedatum – bis dahin sollten die Eier verbraucht werden, nach Ablauf des MHD sollen sie durcherhitzt werden. Die Zusatzdeklaration „Extra“ für die frischesten Eier darf dagegen nur bis zum siebten Tag nach dem Verpacken geführt werden.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Eier, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "Eier Haltbarkeit MHD Verkaufsfrist erklärt"
+   ],
+   "nr": 459
+  },
+  {
+   "id": "tb08-048",
+   "tb": 8,
+   "thema": "Fleisch, Fisch und Milch",
+   "frage": "Für welche Produkte ist die Herkunftskennzeichnung von Fleisch verpflichtend?",
+   "antworten": [
+    "Für alle Fleisch- und Wurstwaren einschließlich verarbeiteter Produkte",
+    "Nur für Rindfleisch, nicht aber für anderes Fleisch",
+    "Nur für Fleisch, das ein AMA-Gütesiegel trägt",
+    "Für verpacktes frisches, gekühltes oder gefrorenes Fleisch von Rind, Schwein, Schaf, Ziege und Geflügel"
+   ],
+   "richtig": 3,
+   "erklaerung": "Verpflichtend ist die Herkunftskennzeichnung für verpacktes, frisches, gekühltes oder gefrorenes Fleisch von Rindern, Schweinen, Schafen, Ziegen und Geflügel. Woher das Fleisch in verarbeiteten Produkten kommt, muss dagegen bisher nicht deklariert werden. Bei abgepacktem frischem Fleisch gilt außerdem das Verbrauchsdatum – nach Ablauf nicht mehr verzehren, besonders bei Faschiertem.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Fleisch, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "Herkunftskennzeichnung Fleisch Pflicht erklärt"
+   ],
+   "nr": 460
+  },
+  {
+   "id": "tb08-049",
+   "tb": 8,
+   "thema": "Fleisch, Fisch und Milch",
+   "frage": "Worauf soll man laut Einkaufsratgeber beim Fischkauf besonders achten?",
+   "antworten": [
+    "Auf die Art der Aufzucht und nicht überfischte Arten – Orientierung geben das MSC-Siegel und Fisch aus biologischer Teichwirtschaft",
+    "Bevorzugt auf tiefgekühlten Hochseefisch, weil dort die Kühlkette am sichersten ist",
+    "Auf das AMA-Gütesiegel, das für alle Meeresfische vergeben wird",
+    "Auf das Identitätskennzeichen, das die Herkunft des Fisches garantiert"
+   ],
+   "richtig": 0,
+   "erklaerung": "Der Einkaufsratgeber empfiehlt, auf die Art der Aufzucht zu achten und nur Fischarten zu kaufen, die nicht durch Überfischung bedroht sind – Orientierung geben die Rote Liste und das MSC-Gütesiegel. Regional gezüchteter Fisch aus biologischer Teichwirtschaft, frisch auf Eis, ist deutlich umweltfreundlicher als tiefgekühlter Hochseefisch; Bioqualität gibt es etwa bei heimischen Forellen, Saiblingen und Karpfen. Das Identitätskennzeichen nennt ohnehin nur den Verarbeitungsort.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Fische und Meeresfrüchte, Abschnitt 7 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "nachhaltig Fisch kaufen MSC Rote Liste"
+   ],
+   "nr": 461
+  },
+  {
+   "id": "tb08-050",
+   "tb": 8,
+   "thema": "Fleisch, Fisch und Milch",
+   "frage": "Warum hilft beim Käsekauf das AMA-Gütesiegel weiter, wenn man österreichische Herkunft möchte – das Identitätskennzeichen aber nicht?",
+   "antworten": [
+    "Weil das Identitätskennzeichen nur auf Fleischprodukten zu finden ist",
+    "Weil das AMA-Gütesiegel österreichische Rohstoffe und Verarbeitung garantiert, das Identitätskennzeichen aber nur den Verarbeitungsort nennt",
+    "Weil das AMA-Gütesiegel zusätzlich die biologische Erzeugung der Milch garantiert",
+    "Weil das Identitätskennzeichen eine freiwillige Angabe der Molkereien ist"
+   ],
+   "richtig": 1,
+   "erklaerung": "Der Käse-Importanteil ist in Österreich wesentlich höher als der Anteil importierter Frischmilch – ein Blick auf die Herkunft lohnt sich also. Das AMA-Gütesiegel garantiert die Erzeugung der Rohstoffe in österreichischer Landwirtschaft und die Verarbeitung in Österreich, während das Identitätskennzeichen nur den Verarbeitungsort nach den EU-Hygieneregelungen nennt. Ein Biosiegel ist das AMA-Gütesiegel dabei nicht.",
+   "buch": [
+    {
+     "band": "Lebensmittel",
+     "kapitel": "Milch, Abschnitt 6 Einkaufsratgeber"
+    }
+   ],
+   "yt": [
+    "Käse Herkunft Österreich erkennen AMA"
+   ],
+   "nr": 462
+  },
+  {
    "id": "tb09-001",
    "tb": 9,
    "thema": "Schwangere",
@@ -10238,7 +11469,7 @@
    "yt": [
     "Energiebedarf Schwangerschaft 250 kcal einfach erklärt"
    ],
-   "nr": 413
+   "nr": 463
   },
   {
    "id": "tb09-002",
@@ -10262,7 +11493,7 @@
    "yt": [
     "Energiebedarf Stillzeit 500 kcal Mehrbedarf"
    ],
-   "nr": 414
+   "nr": 464
   },
   {
    "id": "tb09-003",
@@ -10286,7 +11517,7 @@
    "yt": [
     "Gewichtszunahme Schwangerschaft normal wie viel Kilo"
    ],
-   "nr": 415
+   "nr": 465
   },
   {
    "id": "tb09-004",
@@ -10311,7 +11542,7 @@
     "Gewichtszunahme Schwangerschaft Verlauf Wochen Tabelle"
    ],
    "grafik": true,
-   "nr": 416
+   "nr": 466
   },
   {
    "id": "tb09-005",
@@ -10335,7 +11566,7 @@
    "yt": [
     "Körperliche Veränderungen Schwangerschaft Stoffwechsel erklärt"
    ],
-   "nr": 417
+   "nr": 467
   },
   {
    "id": "tb09-006",
@@ -10359,7 +11590,7 @@
    "yt": [
     "Unterernährung Schwangerschaft Folgen für das Kind"
    ],
-   "nr": 418
+   "nr": 468
   },
   {
    "id": "tb09-007",
@@ -10387,7 +11618,7 @@
    "yt": [
     "Folsäure Kinderwunsch 400 Mikrogramm Empfehlung"
    ],
-   "nr": 419
+   "nr": 469
   },
   {
    "id": "tb09-008",
@@ -10411,7 +11642,7 @@
    "yt": [
     "Neuralrohrdefekt Folsäure Schwangerschaft erklärt"
    ],
-   "nr": 420
+   "nr": 470
   },
   {
    "id": "tb09-009",
@@ -10435,7 +11666,7 @@
    "yt": [
     "Nährstoffbedarf Schwangerschaft kritische Nährstoffe Überblick"
    ],
-   "nr": 421
+   "nr": 471
   },
   {
    "id": "tb09-010",
@@ -10463,7 +11694,7 @@
    "yt": [
     "Jodmangel Schwangerschaft Kretinismus einfach erklärt"
    ],
-   "nr": 422
+   "nr": 472
   },
   {
    "id": "tb09-011",
@@ -10491,7 +11722,7 @@
    "yt": [
     "Alkohol in der Schwangerschaft Folgen fetale Alkoholspektrumstörung"
    ],
-   "nr": 423
+   "nr": 473
   },
   {
    "id": "tb09-012",
@@ -10519,7 +11750,7 @@
    "yt": [
     "Rauchen in der Schwangerschaft Folgen für das Baby"
    ],
-   "nr": 424
+   "nr": 474
   },
   {
    "id": "tb09-013",
@@ -10543,7 +11774,7 @@
    "yt": [
     "Verbotene Lebensmittel Schwangerschaft Listeriose Toxoplasmose"
    ],
-   "nr": 425
+   "nr": 475
   },
   {
    "id": "tb09-014",
@@ -10567,7 +11798,7 @@
    "yt": [
     "Ernährungspyramide Schwangere Stillende Extraportionen Österreich"
    ],
-   "nr": 426
+   "nr": 476
   },
   {
    "id": "tb09-015",
@@ -10591,7 +11822,7 @@
    "yt": [
     "Ernährungspyramide Schwangerschaft Pflanzenöl Omega 3 Extraportion"
    ],
-   "nr": 427
+   "nr": 477
   },
   {
    "id": "tb09-016",
@@ -10619,7 +11850,7 @@
    "yt": [
     "Flüssigkeitsbedarf Stillzeit Schwangerschaft ml pro kg"
    ],
-   "nr": 428
+   "nr": 478
   },
   {
    "id": "tb09-017",
@@ -10643,7 +11874,7 @@
    "yt": [
     "Kolostrum Vormilch Muttermilch Zusammensetzung erklärt"
    ],
-   "nr": 429
+   "nr": 479
   },
   {
    "id": "tb09-018",
@@ -10667,7 +11898,7 @@
    "yt": [
     "Muttermilchmenge pro Tag Milchbildung steigern"
    ],
-   "nr": 430
+   "nr": 480
   },
   {
    "id": "tb09-019",
@@ -10691,7 +11922,7 @@
    "yt": [
     "Muttermilch Kuhmilch Vergleich Eiweiß Säugling Niere"
    ],
-   "nr": 431
+   "nr": 481
   },
   {
    "id": "tb09-020",
@@ -10715,7 +11946,7 @@
    "yt": [
     "Bifidusfaktor Muttermilch Darmflora Säugling erklärt"
    ],
-   "nr": 432
+   "nr": 482
   },
   {
    "id": "tb09-021",
@@ -10739,7 +11970,7 @@
    "yt": [
     "Vorteile Stillen für die Mutter Gebärmutter Rückbildung"
    ],
-   "nr": 433
+   "nr": 483
   },
   {
    "id": "tb09-022",
@@ -10763,7 +11994,7 @@
    "yt": [
     "Pre Nahrung 1er Nahrung Unterschied Säuglingsmilch"
    ],
-   "nr": 434
+   "nr": 484
   },
   {
    "id": "tb09-023",
@@ -10787,7 +12018,7 @@
    "yt": [
     "1er Nahrung Stärke Überfütterung Säugling Dosierung"
    ],
-   "nr": 435
+   "nr": 485
   },
   {
    "id": "tb09-024",
@@ -10811,7 +12042,7 @@
    "yt": [
     "Folgemilch 2er Nahrung ab wann Beikost"
    ],
-   "nr": 436
+   "nr": 486
   },
   {
    "id": "tb09-025",
@@ -10835,7 +12066,7 @@
    "yt": [
     "Säuglingsmilch richtig zubereiten Dosierung Überfütterung"
    ],
-   "nr": 437
+   "nr": 487
   },
   {
    "id": "tb09-026",
@@ -10859,7 +12090,7 @@
    "yt": [
     "Beikost Einführung ab wann 17 Woche Empfehlung"
    ],
-   "nr": 438
+   "nr": 488
   },
   {
    "id": "tb09-027",
@@ -10883,7 +12114,7 @@
    "yt": [
     "Beikostplan erster Brei Gemüse Kartoffel Fleisch Brei"
    ],
-   "nr": 439
+   "nr": 489
   },
   {
    "id": "tb09-028",
@@ -10907,7 +12138,7 @@
    "yt": [
     "Milch Getreide Brei Abendbrei ab wann Beikost"
    ],
-   "nr": 440
+   "nr": 490
   },
   {
    "id": "tb09-029",
@@ -10935,7 +12166,7 @@
    "yt": [
     "Vitamin D Tropfen Säugling 400 IE Rachitisprophylaxe"
    ],
-   "nr": 441
+   "nr": 491
   },
   {
    "id": "tb09-030",
@@ -10959,7 +12190,7 @@
    "yt": [
     "Kein Honig für Babys Säuglingsbotulismus erklärt"
    ],
-   "nr": 442
+   "nr": 492
   },
   {
    "id": "tb09-031",
@@ -10983,7 +12214,7 @@
    "yt": [
     "Ernährungspyramide Kinder Handmaß Portionsgrößen Österreich"
    ],
-   "nr": 443
+   "nr": 493
   },
   {
    "id": "tb09-032",
@@ -11011,7 +12242,7 @@
    "yt": [
     "6 5 4 3 2 1 Regel Ernährungspyramide Kinder erklärt"
    ],
-   "nr": 444
+   "nr": 494
   },
   {
    "id": "tb09-033",
@@ -11039,7 +12270,7 @@
    "yt": [
     "Flüssigkeitsbedarf Kinder ml pro kg Körpergewicht"
    ],
-   "nr": 445
+   "nr": 495
   },
   {
    "id": "tb09-034",
@@ -11069,7 +12300,7 @@
     "Wer als Kind an stark gesalzene Speisen gewöhnt wird, salzt später sein Leben lang stärker.",
     "Salz hemmt im Kindesalter die Aufnahme von Calcium aus dem Darm."
    ],
-   "nr": 446
+   "nr": 496
   },
   {
    "id": "tb09-035",
@@ -11093,7 +12324,7 @@
    "yt": [
     "Kinder neue Lebensmittel probieren wie oft anbieten"
    ],
-   "nr": 447
+   "nr": 497
   },
   {
    "id": "tb09-036",
@@ -11121,7 +12352,7 @@
    "yt": [
     "Eisenmangel Kinder Folgen Gehirnentwicklung Konzentration"
    ],
-   "nr": 448
+   "nr": 498
   },
   {
    "id": "tb09-037",
@@ -11145,7 +12376,7 @@
    "yt": [
     "Übergewicht Kinder Adipositas Risiko Erwachsenenalter"
    ],
-   "nr": 449
+   "nr": 499
   },
   {
    "id": "tb09-038",
@@ -11170,7 +12401,7 @@
     "Tagesspeiseplan Kinder DGE 5 Mahlzeiten beurteilen"
    ],
    "grafik": true,
-   "nr": 450
+   "nr": 500
   },
   {
    "id": "tb09-039",
@@ -11198,7 +12429,7 @@
    "yt": [
     "Ernährungserziehung Familie Süßigkeiten als Belohnung"
    ],
-   "nr": 451
+   "nr": 501
   },
   {
    "id": "tb09-040",
@@ -11222,7 +12453,7 @@
    "yt": [
     "Drittelansatz Schulverpflegung DGE Qualitätsstandards"
    ],
-   "nr": 452
+   "nr": 502
   },
   {
    "id": "tb09-041",
@@ -11246,7 +12477,7 @@
    "yt": [
     "Speisenplanung Gemeinschaftsverpflegung Grundsätze Schule"
    ],
-   "nr": 453
+   "nr": 503
   },
   {
    "id": "tb09-042",
@@ -11275,7 +12506,7 @@
     "Nährstoffbedarf berechnen kJ Kohlenhydrate Eiweiß Fett"
    ],
    "rechnen": true,
-   "nr": 454
+   "nr": 504
   },
   {
    "id": "tb09-043",
@@ -11303,7 +12534,7 @@
    "yt": [
     "Peak Bone Mass Knochendichte Jugendliche Calcium Osteoporose"
    ],
-   "nr": 455
+   "nr": 505
   },
   {
    "id": "tb09-044",
@@ -11331,7 +12562,7 @@
    "yt": [
     "Eisenbedarf Mädchen Pubertät Menstruation 15 mg"
    ],
-   "nr": 456
+   "nr": 506
   },
   {
    "id": "tb09-045",
@@ -11355,7 +12586,7 @@
    "yt": [
     "Tagesleistungskurve Ernährung Mahlzeiten Schule erklärt"
    ],
-   "nr": 457
+   "nr": 507
   },
   {
    "id": "tb09-046",
@@ -11383,7 +12614,7 @@
    "yt": [
     "Mittagstief Nachmittagstief Leistungskurve Bewegung Lernen"
    ],
-   "nr": 458
+   "nr": 508
   },
   {
    "id": "tb09-047",
@@ -11407,7 +12638,7 @@
    "yt": [
     "Flüssigkeitsmangel Konzentration Gehirn 2 Prozent Leistung"
    ],
-   "nr": 459
+   "nr": 509
   },
   {
    "id": "tb09-048",
@@ -11435,7 +12666,7 @@
    "yt": [
     "Fast Food Junk Food Healthy Food Unterschied Definition"
    ],
-   "nr": 460
+   "nr": 510
   },
   {
    "id": "tb09-049",
@@ -11459,7 +12690,7 @@
    "yt": [
     "Energydrinks Definition Koffein Taurin Wirkung Jugendliche"
    ],
-   "nr": 461
+   "nr": 511
   },
   {
    "id": "tb09-050",
@@ -11483,7 +12714,7 @@
    "yt": [
     "Convenience Food Vorteile Nachteile Fertigprodukte"
    ],
-   "nr": 462
+   "nr": 512
   },
   {
    "id": "tb09-051",
@@ -11507,7 +12738,7 @@
    "yt": [
     "Gesunde Schuljause Beispiele schlechte Jause verbessern"
    ],
-   "nr": 463
+   "nr": 513
   },
   {
    "id": "tb09-052",
@@ -11535,7 +12766,7 @@
    "yt": [
     "Essstörungen Formen Anorexie Bulimie Binge Eating erklärt"
    ],
-   "nr": 464
+   "nr": 514
   },
   {
    "id": "tb09-053",
@@ -11559,7 +12790,7 @@
    "yt": [
     "Seniorenalter vier Phasen junge Alte Hochbetagte Einteilung"
    ],
-   "nr": 465
+   "nr": 515
   },
   {
    "id": "tb09-054",
@@ -11583,7 +12814,7 @@
    "yt": [
     "Wassergehalt Körper Alter Durstgefühl Senioren trinken"
    ],
-   "nr": 466
+   "nr": 516
   },
   {
    "id": "tb09-055",
@@ -11611,7 +12842,7 @@
    "yt": [
     "Dehydration im Alter Folgen Verwirrtheit Sturzgefahr"
    ],
-   "nr": 467
+   "nr": 517
   },
   {
    "id": "tb09-056",
@@ -11635,7 +12866,7 @@
    "yt": [
     "Nährstoffdichte Seniorenernährung Energiebedarf sinkt"
    ],
-   "nr": 468
+   "nr": 518
   },
   {
    "id": "tb09-057",
@@ -11659,7 +12890,7 @@
    "yt": [
     "Geschmackssinn im Alter Kräuter statt Salz würzen"
    ],
-   "nr": 469
+   "nr": 519
   },
   {
    "id": "tb09-058",
@@ -11687,7 +12918,7 @@
    "yt": [
     "Calcium Vitamin D Osteoporose Menopause Knochendichte"
    ],
-   "nr": 470
+   "nr": 520
   },
   {
    "id": "tb09-059",
@@ -11715,7 +12946,7 @@
    "yt": [
     "Osteomalazie Rachitis Unterschied Vitamin D Mangel"
    ],
-   "nr": 471
+   "nr": 521
   },
   {
    "id": "tb09-060",
@@ -11739,7 +12970,7 @@
    "yt": [
     "Mangelernährung Senioren Speisen anreichern Energie"
    ],
-   "nr": 472
+   "nr": 522
   },
   {
    "id": "tb09-061",
@@ -11763,7 +12994,7 @@
    "yt": [
     "Divertikel Verstopfung im Alter Ballaststoffe Ernährung"
    ],
-   "nr": 473
+   "nr": 523
   },
   {
    "id": "tb09-062",
@@ -11787,7 +13018,7 @@
    "yt": [
     "Ernährung Breitensport Freizeitsport Energiebedarf"
    ],
-   "nr": 474
+   "nr": 524
   },
   {
    "id": "tb09-063",
@@ -11811,7 +13042,7 @@
    "yt": [
     "Sportgetränk selbst machen Apfelsaft gespritzt Natrium"
    ],
-   "nr": 475
+   "nr": 525
   },
   {
    "id": "tb09-064",
@@ -11835,7 +13066,7 @@
    "yt": [
     "Glykogenspeicher Muskel Kohlenhydrate Sport erklärt"
    ],
-   "nr": 476
+   "nr": 526
   },
   {
    "id": "tb09-065",
@@ -11859,7 +13090,7 @@
    "yt": [
     "Eiweißbedarf Sportler Gramm pro Kilogramm Kraftsport Ausdauer"
    ],
-   "nr": 477
+   "nr": 527
   },
   {
    "id": "tb09-066",
@@ -11884,7 +13115,7 @@
     "Eiweißbedarf berechnen Sportler Körpergewicht Beispiel"
    ],
    "rechnen": true,
-   "nr": 478
+   "nr": 528
   },
   {
    "id": "tb09-067",
@@ -11908,7 +13139,7 @@
    "yt": [
     "Zu viel Eiweiß Sport Nieren Proteinpulver Kritik"
    ],
-   "nr": 479
+   "nr": 529
   },
   {
    "id": "tb09-068",
@@ -11932,7 +13163,7 @@
    "yt": [
     "isoton hypoton hyperton Sportgetränke Unterschied erklärt"
    ],
-   "nr": 480
+   "nr": 530
   },
   {
    "id": "tb09-069",
@@ -11956,7 +13187,7 @@
    "yt": [
     "Mahlzeiten vor und nach dem Training Timing Sport"
    ],
-   "nr": 481
+   "nr": 531
   },
   {
    "id": "tb09-070",
@@ -11986,7 +13217,7 @@
     "Bei Koffein liegt ein Dopingfall vor, wenn mehr als 15 µg/ml im Urin nachgewiesen werden.",
     "Kreatin und Koffein gelten für alle Sporttreibenden unabhängig vom Leistungsniveau als wirksam."
    ],
-   "nr": 482
+   "nr": 532
   },
   {
    "id": "tb10-001",
@@ -12011,7 +13242,7 @@
     "Metabolisches Syndrom vier Risikofaktoren einfach erklärt",
     "Tödliches Quartett Metabolisches Syndrom"
    ],
-   "nr": 483
+   "nr": 533
   },
   {
    "id": "tb10-002",
@@ -12036,7 +13267,7 @@
     "Tödliches Quartett Syndrom X erklärt",
     "Metabolisches Syndrom Zusammenhang Arteriosklerose"
    ],
-   "nr": 484
+   "nr": 534
   },
   {
    "id": "tb10-003",
@@ -12065,7 +13296,7 @@
     "Wohlstandskrankheiten Ernährung Österreich erklärt",
     "Haupternährungsfehler Österreich Überfluss Bewegungsmangel"
    ],
-   "nr": 485
+   "nr": 535
   },
   {
    "id": "tb10-004",
@@ -12096,7 +13327,7 @@
     "Harnsäurewert über 8,0 mg/100 ml Blut",
     "Nüchternblutzucker wiederholt über 126 mg/dl"
    ],
-   "nr": 486
+   "nr": 536
   },
   {
    "id": "tb10-005",
@@ -12125,7 +13356,7 @@
     "Bauchfett viszerales Fett stoffwechselaktiv erklärt",
     "Warum ist Bauchfett gefährlich Ernährung"
    ],
-   "nr": 487
+   "nr": 537
   },
   {
    "id": "tb10-006",
@@ -12154,7 +13385,7 @@
     "Arteriosklerose einfach erklärt Entstehung",
     "Arterienverkalkung Plaque Gefäße Schulvideo"
    ],
-   "nr": 488
+   "nr": 538
   },
   {
    "id": "tb10-007",
@@ -12179,7 +13410,7 @@
     "Plaque Arterien Cholesterin Calcium erklärt",
     "Arteriosklerose Ablagerungen Aufbau"
    ],
-   "nr": 489
+   "nr": 539
   },
   {
    "id": "tb10-008",
@@ -12204,7 +13435,7 @@
     "gesundes Gefäß verengtes Gefäß Vergleich Arteriosklerose",
     "Blutgefäß Aufbau Lumen Elastizität erklärt"
    ],
-   "nr": 490
+   "nr": 540
   },
   {
    "id": "tb10-009",
@@ -12229,7 +13460,7 @@
     "Entstehung Arteriosklerose Stadien Fettstreifen Plaque",
     "Arteriosklerose Verlauf Animation deutsch"
    ],
-   "nr": 491
+   "nr": 541
   },
   {
    "id": "tb10-010",
@@ -12254,7 +13485,7 @@
     "Schlaganfall Herzinfarkt Unterschied einfach erklärt",
     "Folgen Arteriosklerose Herzinfarkt Schlaganfall"
    ],
-   "nr": 492
+   "nr": 542
   },
   {
    "id": "tb10-011",
@@ -12279,7 +13510,7 @@
     "systolisch diastolisch Blutdruck Unterschied erklärt",
     "Blutdruck messen Werte verstehen"
    ],
-   "nr": 493
+   "nr": 543
   },
   {
    "id": "tb10-012",
@@ -12304,7 +13535,7 @@
     "Blutdruck Normalwerte systolisch diastolisch Tabelle",
     "diastolischer Blutdruck erklärt"
    ],
-   "nr": 494
+   "nr": 544
   },
   {
    "id": "tb10-013",
@@ -12329,7 +13560,7 @@
     "Bluthochdruck ab wann Grenzwert 140 zu 90",
     "Hypertonie Grade Einteilung erklärt"
    ],
-   "nr": 495
+   "nr": 545
   },
   {
    "id": "tb10-014",
@@ -12358,7 +13589,7 @@
     "Kalium Calcium Magnesium Blutdruck Zusammenhang",
     "Mineralstoffe Bluthochdruck Ernährung"
    ],
-   "nr": 496
+   "nr": 546
   },
   {
    "id": "tb10-015",
@@ -12387,7 +13618,7 @@
     "Natrium Wasser binden Blutdruck Mechanismus",
     "Salz Bluthochdruck Zusammenhang einfach erklärt"
    ],
-   "nr": 497
+   "nr": 547
   },
   {
    "id": "tb10-016",
@@ -12412,7 +13643,7 @@
     "salzsensitiv salzresistent Blutdruck Unterschied",
     "Salzsensitivität Bluthochdruck erklärt"
    ],
-   "nr": 498
+   "nr": 548
   },
   {
    "id": "tb10-017",
@@ -12437,7 +13668,7 @@
     "Salzreduktion Bluthochdruck 5 Gramm pro Tag",
     "DASH Ernährung Bluthochdruck erklärt"
    ],
-   "nr": 499
+   "nr": 549
   },
   {
    "id": "tb10-018",
@@ -12466,7 +13697,7 @@
     "BMI berechnen Formel einfach erklärt",
     "Body Mass Index Berechnung Beispiel"
    ],
-   "nr": 500
+   "nr": 550
   },
   {
    "id": "tb10-019",
@@ -12496,7 +13727,7 @@
     "BMI berechnen Übung Lösung"
    ],
    "rechnen": true,
-   "nr": 501
+   "nr": 551
   },
   {
    "id": "tb10-020",
@@ -12526,7 +13757,7 @@
     "BMI 30 Adipositas Einteilung erklärt"
    ],
    "rechnen": true,
-   "nr": 502
+   "nr": 552
   },
   {
    "id": "tb10-021",
@@ -12556,7 +13787,7 @@
     "BMI Tabelle Normalbereich Erwachsene"
    ],
    "rechnen": true,
-   "nr": 503
+   "nr": 553
   },
   {
    "id": "tb10-022",
@@ -12586,7 +13817,7 @@
     "Taille Hüft Verhältnis Richtwerte Frauen Männer"
    ],
    "rechnen": true,
-   "nr": 504
+   "nr": 554
   },
   {
    "id": "tb10-023",
@@ -12615,7 +13846,7 @@
     "BMI Tabelle Untergewicht Normalgewicht Adipositas",
     "Adipositas Grad 1 2 3 Einteilung WHO"
    ],
-   "nr": 505
+   "nr": 555
   },
   {
    "id": "tb10-024",
@@ -12644,7 +13875,7 @@
     "Bauchumfang messen Grenzwerte Frauen Männer",
     "Taillenumfang Risiko Herz Kreislauf erklärt"
    ],
-   "nr": 506
+   "nr": 556
   },
   {
    "id": "tb10-025",
@@ -12673,7 +13904,7 @@
     "Apfeltyp Birnentyp Fettverteilung android gynoid",
     "Körperfettverteilung Apfel Birne Risiko"
    ],
-   "nr": 507
+   "nr": 557
   },
   {
    "id": "tb10-026",
@@ -12702,7 +13933,7 @@
     "BMI Vorteile Nachteile Sportler Muskelmasse",
     "BMI Kritik Aussagekraft erklärt"
    ],
-   "nr": 508
+   "nr": 558
   },
   {
    "id": "tb10-027",
@@ -12727,7 +13958,7 @@
     "Jo-Jo-Effekt einfach erklärt Grundumsatz Muskelmasse",
     "warum nimmt man nach Diät wieder zu"
    ],
-   "nr": 509
+   "nr": 559
   },
   {
    "id": "tb10-028",
@@ -12752,7 +13983,7 @@
     "Adipositas Krankheit Folgeerkrankungen Überblick",
     "Folgen von Übergewicht Gesundheit erklärt"
    ],
-   "nr": 510
+   "nr": 560
   },
   {
    "id": "tb10-029",
@@ -12781,7 +14012,7 @@
     "BMI Kinder Jugendliche Perzentile erklärt",
     "Übergewicht bei Kindern Ursachen Erziehung"
    ],
-   "nr": 511
+   "nr": 561
   },
   {
    "id": "tb10-030",
@@ -12810,7 +14041,7 @@
     "LDL HDL Cholesterin Unterschied einfach erklärt",
     "Lipoproteine Transport Cholesterin Merkhilfe"
    ],
-   "nr": 512
+   "nr": 562
   },
   {
    "id": "tb10-031",
@@ -12835,7 +14066,7 @@
     "Cholesterin Referenzwerte Blutfette Tabelle",
     "erhöhte Blutfettwerte Grenzwerte erklärt"
    ],
-   "nr": 513
+   "nr": 563
   },
   {
    "id": "tb10-032",
@@ -12864,7 +14095,7 @@
     "Insulin Bauchspeicheldrüse Langerhans Inseln Beta-Zellen",
     "Insulinbildung Pankreas einfach erklärt"
    ],
-   "nr": 514
+   "nr": 564
   },
   {
    "id": "tb10-033",
@@ -12893,7 +14124,7 @@
     "Insulin Glucagon Gegenspieler Blutzucker erklärt",
     "Blutzuckerregulation Hormone einfach erklärt"
    ],
-   "nr": 515
+   "nr": 565
   },
   {
    "id": "tb10-034",
@@ -12918,7 +14149,7 @@
     "Diabetes mellitus Bedeutung Name honigsüßer Durchfluss",
     "Zuckerkrankheit Geschichte Nierenschwelle"
    ],
-   "nr": 516
+   "nr": 566
   },
   {
    "id": "tb10-035",
@@ -12943,7 +14174,7 @@
     "Diabetes Typ 1 Typ 2 Unterschied absoluter relativer Insulinmangel",
     "Diabetes Typen Vergleich einfach erklärt"
    ],
-   "nr": 517
+   "nr": 567
   },
   {
    "id": "tb10-036",
@@ -12972,7 +14203,7 @@
     "Insulinresistenz Schlüssel Schloss Prinzip erklärt",
     "Insulinrezeptoren Zellmembran Diabetes Typ 2"
    ],
-   "nr": 518
+   "nr": 568
   },
   {
    "id": "tb10-037",
@@ -12997,7 +14228,7 @@
     "Diabetes Typ 1 Typ 2 Schwangerschaftsdiabetes Vergleich",
     "ist Diabetes Typ 2 umkehrbar erklärt"
    ],
-   "nr": 519
+   "nr": 569
   },
   {
    "id": "tb10-038",
@@ -13022,7 +14253,7 @@
     "Diabetes Typ 1 Symptome Durst Gewichtsverlust",
     "Anzeichen Diabetes Typ 1 erkennen"
    ],
-   "nr": 520
+   "nr": 570
   },
   {
    "id": "tb10-039",
@@ -13047,7 +14278,7 @@
     "Diabetes Typ 2 Symptome schleichend Wundheilung",
     "Typ 2 Diabetes lange unbemerkt Anzeichen"
    ],
-   "nr": 521
+   "nr": 571
   },
   {
    "id": "tb10-040",
@@ -13072,7 +14303,7 @@
     "Schwangerschaftsdiabetes Gestationsdiabetes einfach erklärt",
     "Schwangerschaftsdiabetes Folgen Kind Therapie"
    ],
-   "nr": 522
+   "nr": 572
   },
   {
    "id": "tb10-041",
@@ -13097,7 +14328,7 @@
     "Insulinpen Insulinpumpe Vergleich Vorteile Nachteile",
     "Insulintherapie Pen Pumpe erklärt"
    ],
-   "nr": 523
+   "nr": 573
   },
   {
    "id": "tb10-042",
@@ -13126,7 +14357,7 @@
     "Glykämischer Index einfach erklärt Glucose 100",
     "glykämischer Index glykämische Last Unterschied"
    ],
-   "nr": 524
+   "nr": 574
   },
   {
    "id": "tb10-043",
@@ -13151,7 +14382,7 @@
     "glykämischer Index Tabelle Lebensmittel Beispiele",
     "niedriger glykämischer Index Diabetes Ernährung"
    ],
-   "nr": 525
+   "nr": 575
   },
   {
    "id": "tb10-044",
@@ -13176,7 +14407,7 @@
     "Broteinheit BE Kohlenhydrateinheit KE erklärt",
     "BE berechnen Diabetes Austauschtabelle"
    ],
-   "nr": 526
+   "nr": 576
   },
   {
    "id": "tb10-045",
@@ -13202,7 +14433,7 @@
     "BE Berechnung Kohlenhydrate Übung"
    ],
    "rechnen": true,
-   "nr": 527
+   "nr": 577
   },
   {
    "id": "tb10-046",
@@ -13227,7 +14458,7 @@
     "Hypoglykämie Hyperglykämie Unterschied merken",
     "hypo hyper Vorsilben Bedeutung Ernährungslehre"
    ],
-   "nr": 528
+   "nr": 578
   },
   {
    "id": "tb10-047",
@@ -13252,7 +14483,7 @@
     "Unterzuckerung Symptome erkennen Diabetes",
     "Hypoglykämie Anzeichen Erste Hilfe"
    ],
-   "nr": 529
+   "nr": 579
   },
   {
    "id": "tb10-048",
@@ -13283,7 +14514,7 @@
     "Ein Getränk mit Süßstoff",
     "Ein Stück Schokolade"
    ],
-   "nr": 530
+   "nr": 580
   },
   {
    "id": "tb10-049",
@@ -13308,7 +14539,7 @@
     "Süßstoff Zuckeraustauschstoff Blutzucker Wirkung",
     "warum kein Light Getränk bei Unterzuckerung"
    ],
-   "nr": 531
+   "nr": 581
   },
   {
    "id": "tb10-050",
@@ -13333,7 +14564,7 @@
     "stabile Seitenlage Bewusstlosigkeit Erste Hilfe",
     "Diabetiker bewusstlos was tun Notruf"
    ],
-   "nr": 532
+   "nr": 582
   },
   {
    "id": "tb10-051",
@@ -13358,7 +14589,7 @@
     "diabetisches Koma Ketonkörper Acidose erklärt",
     "Hyperglykämie Überzuckerung Gefahren Diabetes"
    ],
-   "nr": 533
+   "nr": 583
   },
   {
    "id": "tb10-052",
@@ -13383,7 +14614,7 @@
     "Diabetes Typ 2 vorbeugen Maßnahmen Gewicht Bewegung",
     "HbA1c Wert Bedeutung Diabetes Vorsorge"
    ],
-   "nr": 534
+   "nr": 584
   },
   {
    "id": "tb10-053",
@@ -13408,7 +14639,7 @@
     "mediterrane Ernährung Diabetes Vorteile erklärt",
     "Mittelmeerkost asiatische Kost Blutzucker"
    ],
-   "nr": 535
+   "nr": 585
   },
   {
    "id": "tb10-054",
@@ -13433,7 +14664,7 @@
     "Osteoporose einfach erklärt Knochenschwund",
     "Osteoblasten Osteoklasten Knochenumbau erklärt"
    ],
-   "nr": 536
+   "nr": 586
   },
   {
    "id": "tb10-055",
@@ -13458,7 +14689,7 @@
     "Osteoporose Symptome Rundrücken Körpergröße",
     "Wirbelkörper Osteoporose Wirbelsäule Veränderung"
    ],
-   "nr": 537
+   "nr": 587
   },
   {
    "id": "tb10-056",
@@ -13487,7 +14718,7 @@
     "Peak Bone Mass Knochendichte Aufbau erklärt",
     "Osteoporose Prävention Jugend Knochenmasse"
    ],
-   "nr": 538
+   "nr": 588
   },
   {
    "id": "tb10-057",
@@ -13518,7 +14749,7 @@
     "Hormonelle Veränderungen in der Menopause",
     "Bewegungsmangel"
    ],
-   "nr": 539
+   "nr": 589
   },
   {
    "id": "tb10-058",
@@ -13547,7 +14778,7 @@
     "Calcium Vitamin D Zusammenspiel Knochen erklärt",
     "Calciumaufnahme Dünndarm Förderer Hemmstoffe"
    ],
-   "nr": 540
+   "nr": 590
   },
   {
    "id": "tb10-059",
@@ -13576,7 +14807,7 @@
     "Rachitis Osteoporose Unterschied einfach erklärt",
     "Rachitis Vitamin D Mangel Kinder Symptome"
    ],
-   "nr": 541
+   "nr": 591
   },
   {
    "id": "tb10-060",
@@ -13605,7 +14836,7 @@
     "Osteomalazie Rachitis Erwachsene Unterschied",
     "Vitamin D Mangel Knochen Folgen erklärt"
    ],
-   "nr": 542
+   "nr": 592
   },
   {
    "id": "tb10-061",
@@ -13634,7 +14865,7 @@
     "Calciumräuber Kaffee Alkohol Nikotin Knochen",
     "calciumreiche Lebensmittel Übersicht Osteoporose"
    ],
-   "nr": 543
+   "nr": 593
   },
   {
    "id": "tb10-062",
@@ -13659,7 +14890,7 @@
     "Purine Harnsäure Stoffwechsel einfach erklärt",
     "Gicht Purinstoffwechsel Entstehung"
    ],
-   "nr": 544
+   "nr": 594
   },
   {
    "id": "tb10-063",
@@ -13684,7 +14915,7 @@
     "Harnsäure Normalwerte Hyperurikämie Grenzwerte",
     "Gicht Blutwerte Harnsäure erklärt"
    ],
-   "nr": 545
+   "nr": 595
   },
   {
    "id": "tb10-064",
@@ -13709,7 +14940,7 @@
     "purinreiche Lebensmittel Gicht Tabelle",
     "Ernährung bei Gicht purinarme Kost erklärt"
    ],
-   "nr": 546
+   "nr": 596
   },
   {
    "id": "tb10-065",
@@ -13734,7 +14965,7 @@
     "Bier Gicht Harnsäure Alkohol Wirkung",
     "alkoholfreies Bier Purine Gicht"
    ],
-   "nr": 547
+   "nr": 597
   },
   {
    "id": "tb10-066",
@@ -13759,7 +14990,7 @@
     "Gicht Gewichtsabnahme Nulldiät Gichtanfall",
     "Ernährungstherapie Gicht Flüssigkeit Tipps"
    ],
-   "nr": 548
+   "nr": 598
   },
   {
    "id": "tb10-067",
@@ -13788,7 +15019,7 @@
     "Primärprävention Sekundärprävention Tertiärprävention Unterschied",
     "Prävention Stufen einfach erklärt"
    ],
-   "nr": 549
+   "nr": 599
   },
   {
    "id": "tb10-068",
@@ -13813,7 +15044,7 @@
     "Tertiärprävention Beispiele Gesundheitswesen",
     "Prävention Beispiele Primär Sekundär Tertiär"
    ],
-   "nr": 550
+   "nr": 600
   },
   {
    "id": "tb10-069",
@@ -13838,7 +15069,7 @@
     "Sekundärprävention Screening Vorsorgeuntersuchung erklärt",
     "Vorsorgeuntersuchung Österreich Ablauf"
    ],
-   "nr": 551
+   "nr": 601
   },
   {
    "id": "tb10-070",
@@ -13863,7 +15094,7 @@
     "Nationaler Aktionsplan Ernährung NAPe Österreich",
     "Public Health Nutrition Österreich Maßnahmen"
    ],
-   "nr": 552
+   "nr": 602
   }
  ]
 }
