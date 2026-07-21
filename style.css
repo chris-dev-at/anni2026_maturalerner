@@ -28,6 +28,10 @@
   --shadow:    0 6px 22px rgba(20, 50, 40, .08);
   --shadow-up: 0 -6px 16px rgba(20, 50, 40, .12);
   --radius:    16px;
+
+  /* Höhe der Navigationsleiste am unteren Rand (nur auf Handybreite sichtbar).
+     Wird unten als feste Höhe gesetzt, damit der Wert verlässlich stimmt. */
+  --navh:      62px;
 }
 
 /* Dunkles Thema. Gesetzt wird data-theme früh im <head>, damit beim Laden
@@ -112,12 +116,13 @@ a:hover { text-decoration: underline; }
 .brand-title { font-size: 18px; font-weight: 700; }
 .brand-sub { font-size: 12px; color: var(--muted); }
 
-.topnav { display: flex; gap: 6px; flex-shrink: 0; }
+.topnav { display: flex; gap: 6px; flex-shrink: 0; margin-left: auto; }
 .navbtn {
   background: none; border: 0; cursor: pointer;
   color: var(--muted); font-size: 14px; font-weight: 600;
   padding: 8px 12px; border-radius: 10px;
 }
+.navbtn-icon { display: none; }
 .navbtn:hover { background: var(--bg); }
 .navbtn.active { background: var(--accent-l); color: var(--accent-d); }
 
@@ -488,8 +493,32 @@ button:focus-visible, .chip:focus-visible {
 @media (max-width: 640px) {
   .topbar-inner { padding: 10px 14px; }
   .brand-sub { display: none; }
-  .navbtn { padding: 8px 10px; font-size: 13.5px; }
-  #app { padding: 16px 12px 64px; padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
+
+  /* Vier Textknöpfe passen nicht neben den Titel – die Navigation wandert
+     an den unteren Rand, wo sie mit dem Daumen erreichbar ist. */
+  .topnav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    margin: 0; gap: 0;
+    align-items: center;
+    background: var(--panel);
+    border-top: 1px solid var(--line);
+    box-shadow: var(--shadow-up);
+    padding: 0 4px;
+    /* Feste Höhe, damit --navh als Abstandsmaß verlässlich stimmt */
+    height: calc(var(--navh) + env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .navbtn {
+    flex: 1; min-width: 0;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: 6px 2px; font-size: 11px; font-weight: 600;
+    border-radius: 10px;
+  }
+  .navbtn-icon { display: block; font-size: 19px; line-height: 1.1; }
+  .navbtn-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  .navbtn.active { background: var(--accent-l); color: var(--accent-d); }
+
+  #app { padding: 16px 12px; padding-bottom: calc(var(--navh) + 24px + env(safe-area-inset-bottom)); }
   h1 { font-size: 21px; }
   .panel { padding: 14px; border-radius: 12px; margin-bottom: 14px; }
   .mode-grid { grid-template-columns: 1fr; }
@@ -503,11 +532,10 @@ button:focus-visible, .chip:focus-visible {
   .themen-checks { grid-template-columns: 1fr; }
   .tb-grid { grid-template-columns: 1fr; }
 
-  /* Aktionsleiste bleibt am Daumen erreichbar */
+  /* Aktionsleiste bleibt am Daumen erreichbar – sitzt über der Navigationsleiste */
   .card-actions {
-    position: sticky; bottom: 0;
+    position: sticky; bottom: calc(var(--navh) + env(safe-area-inset-bottom));
     margin: 0 -16px -16px; padding: 12px 16px;
-    padding-bottom: calc(12px + env(safe-area-inset-bottom));
     background: var(--panel);
     border-top: 1px solid var(--line);
     box-shadow: var(--shadow-up);
